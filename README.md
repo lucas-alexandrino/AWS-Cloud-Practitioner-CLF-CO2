@@ -74,8 +74,8 @@ https://aws.amazon.com/pt/application-hosting/benefits/
 Exemplo: Zendesk(AWS MarketPlace), Google Sheets, etc.
 
 <p float="left">
-  <img src="images/hierarquia.png" width="200" />
-  <img src="images/piramidemodelos.png" width="200" /> 
+  <img src="images/hierarquia.png" width="400" />
+  <img src="images/piramidemodelos.png" width="400" /> 
 </p>
 
 
