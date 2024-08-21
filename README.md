@@ -73,7 +73,11 @@ https://aws.amazon.com/pt/application-hosting/benefits/
 
 Exemplo: Zendesk(AWS MarketPlace), Google Sheets, etc.
 
-| ![hierarquia](images/hierarquia.png) | ![piramidemodelos](images/piramidemodelos.png)|
+<p float="left">
+  <img src="images/hierarquia.png" width="200" />
+  <img src="images/piramidemodelos.png" width="200" /> 
+</p>
+
 
 ## 3.Tipos de implantação na Nuvem
 
