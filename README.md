@@ -54,3 +54,34 @@ A AWS possui e mantém o hardware conectado à infraestrutura necessária para e
 > *Benefícios*:
 
 https://aws.amazon.com/pt/application-hosting/benefits/
+
+
+## Modelos de Computação em Nuvem
+
+
+![modelosComputacao](images/modelos.jpg)
+
+1. **Infraestrutura como Serviço (IaaS):**
+    - Contém os componentes básicos da TI em nuvem e, geralmente, dá acesso (virtual ou no hardware dedicado) a recursos de rede e computadores, como também espaço para o armazenamento de dados.
+    - Um exemplo comum de IaaS na AWS é o Amazon EC2, do qual você tem acesso virtual a recursos de computação na nuvem.
+2. **Plataforma como Serviço (PaaS):**
+    - Elimina a necessidade de gerenciar a infraestrutura subjacente, permitindo que você se concentre no desenvolvimento e gerenciamento de aplicativos.
+    - Um exemplo comum de PaaS na AWS é o Amazon RDS, do qual você não tem a necessidade de gerenciar a infraestrutura subjacente para iniciar um banco de dados relacional.
+3. **Software como Serviço (SaaS):**
+    - Não é necessário saber em como o serviço é mantido ou como a infraestrutura subjacente é gerenciada, você só precisa pensar em como usará este tipo específico de software.
+    - Um exemplo comum de aplicação do SaaS é o webmail, no qual você pode enviar e receber e-mails sem precisar gerenciar recursos adicionais para o produto de e-mail ou manter os servidores e sistemas operacionais no qual o programa de e-mail está sendo executado.
+
+Exemplo: Zendesk(AWS MarketPlace), Google Sheets, etc.
+
+| ![hierarquia](images/hierarquia.png) | ![piramidemodelos](images/piramidemodelos.png)|
+
+## 3.Tipos de implantação na Nuvem
+
+Existem três tipos comuns de implantação em nuvem:
+
+1. **Nuvem Pública:**
+    - Totalmente implantada na nuvem, com todas as partes da aplicação em execução na nuvem.
+2. **Nuvem Híbrida:**
+    - Conecta recursos em nuvem AWS, a recursos existentes fora da nuvem (ambiente on-premises), proporcionando uma integração híbrida entre esses ambientes.
+3. **Nuvem Privada (on-premises):**
+    - Nuvem gerenciada internamente, usando virtualização e ferramentas de gerenciamento de recursos. Ela pode estar tanto on-premises, quanto em um hardware dedicado em uma provedora de nuvem.
