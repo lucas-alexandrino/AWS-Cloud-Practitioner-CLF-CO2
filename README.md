@@ -121,3 +121,27 @@ Uma **política**, por outro lado, é um documento em **JSON** que define um co
 Um **grupo** é uma coleção de usuários que compartilham permissões comuns. Os grupos facilitam a gestão de permissões para vários usuários de uma vez, pois as políticas podem ser anexadas a um grupo e aplicadas a todos os usuários dentro desse grupo. Ao atribuir permissões a um grupo, é possível conceder ou revogar o acesso para vários usuários com uma única ação.
 
 De maneira geral, as funções são usadas para conceder acesso a recursos ou serviços específicos, as políticas são usadas para definir as permissões para esses recursos ou serviços, e os grupos são usados para organizar e gerenciar vários usuários com permissões semelhantes.
+
+## **2.3 Funções do IAM com instâncias EC2**
+
+As funções do IAM podem ser usadas para conceder permissões a aplicativos em execução em instâncias EC2 para solicitações de API da AWS usando perfis de instância.
+
+Apenas uma função pode ser atribuída a uma instância EC2 por vez.
+
+Uma função pode ser atribuída no momento da criação da instância EC2 ou a qualquer momento posteriormente.
+
+Crie uma função do IAM com duas políticas:
+
+- Política de permissões – concede ao usuário da função as permissões necessárias em um recurso.
+- Política de confiança – especifica as contas confiáveis que têm permissão para assumir a função. Wildcards(todos, no caso usa-se o asterisco (*)) não podem ser especificados como principal. Uma política de permissões também deve ser anexada ao usuário na conta confiável
+
+## 2.3 IAM Identity Center
+
+O **IAM Identity Center** foi desenvolvido com base no AWS **Identity** and Access Management (**IAM**) para simplificar o gerenciamento de **acesso a várias contas da AWS**, **aplicações da AWS** e outras **aplicações de nuvem habilitadas para SAML.**
+
+***IAM:*** Habilita usuários e grupos, para os recursos e serviços da conta que foram criados, **preferencialmente utilizado** de modo programático em uma única conta
+***IAM Identity Center:*** Habilita novos usuários e grupos, para terem **acesso a várias contas** AWS, **aplicações da AWS** por exemplo um PaaS ou SaaS, **preferencialmente utilizado** a usuários que precisam de acesso ao **portal**
+
+
+![portal_aws](images/Portal_acesso_aws.png)
+> Portal de Acesso AWS, contas e serviços
