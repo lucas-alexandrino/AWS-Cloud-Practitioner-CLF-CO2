@@ -89,3 +89,35 @@ Existem três tipos comuns de implantação em nuvem:
     - Conecta recursos em nuvem AWS, a recursos existentes fora da nuvem (ambiente on-premises), proporcionando uma integração híbrida entre esses ambientes.
 3. **Nuvem Privada (on-premises):**
     - Nuvem gerenciada internamente, usando virtualização e ferramentas de gerenciamento de recursos. Ela pode estar tanto on-premises, quanto em um hardware dedicado em uma provedora de nuvem.
+
+
+## Planos do AWS Support
+
+Existem 4 planos de suporte AWS:
+
+Developer, Business, Enterprise On-Ramp, Enterprise
+
+(Ler a tabela inteira em:https://aws.amazon.com/pt/premiumsupport/plans/)
+
+### Legenda:
+
+Service quotas:
+Trusted Advisor(**consultor confiável)**:Ferramenta da AWS para te ajudar através de conselhos e indicações, como Reduzir custo, Aumentar a performance, Melhorar a Segurança e te indicar Possíveis falhas futuras(Fault tolerance).
+API do Support
+Support automation workflows
+AWS Countdown
+AWS re:Post: Comunidade(Fórum) da AWS, tendo acessos a conteúdos selecionados e especialistas cloud
+
+![planos_support](images/planos_support.png)
+
+## 2.3 IAM
+
+No IAM da AWS, funções, políticas e grupos são todos usados para gerenciar o acesso aos recursos da AWS.
+
+Uma **função** define um conjunto de **políticas de acesso** que determinam quais ações um **usuário ou serviço** da AWS pode realizar. As funções são úteis quando você deseja conceder acesso (temporário) a recursos da AWS a uma entidade de terceiros, como um serviço da AWS ou um usuário fora da sua conta da AWS.
+
+Uma **política**, por outro lado, é um documento em **JSON** que define um conjunto de **permissões** e especifica a quais recursos da AWS essas **permissões** concedem acesso. **As políticas podem ser anexadas a funções**, grupos ou usuários individuais para definir seu **nível de acesso** aos recursos da AWS. As políticas são úteis quando você deseja definir e impor permissões específicas para um recurso ou conjunto de recursos específicos.
+
+Um **grupo** é uma coleção de usuários que compartilham permissões comuns. Os grupos facilitam a gestão de permissões para vários usuários de uma vez, pois as políticas podem ser anexadas a um grupo e aplicadas a todos os usuários dentro desse grupo. Ao atribuir permissões a um grupo, é possível conceder ou revogar o acesso para vários usuários com uma única ação.
+
+De maneira geral, as funções são usadas para conceder acesso a recursos ou serviços específicos, as políticas são usadas para definir as permissões para esses recursos ou serviços, e os grupos são usados para organizar e gerenciar vários usuários com permissões semelhantes.
