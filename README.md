@@ -1,3 +1,21 @@
+<style>
+r { color: Red }
+o { color: Orange }
+g { color: Green }
+</style>
+
+<!--- 
+
+🔴 red: +5V
+🟠 orange: +3.3V
+⚫ black: ground
+⚪ white: ground (pull-down)
+🟣 purple: I2C signal
+🟢 green: clock signal
+🟡 yellow: WS2812 signal
+🔵 blue: resistor bridge (analogue) input
+-->
+
 # AWS Cloud Practitioner Study Guide
 
 Este repositório contém conteudos e resumos, focados em Cloud computing e AWS, que aprendi durante o estudo para a certificação AWS Cloud Practitioner e outras certificações.
@@ -145,3 +163,48 @@ O **IAM Identity Center** foi desenvolvido com base no AWS **Identity** and 
 
 ![portal_aws](images/Portal_acesso_aws.png)
 > Portal de Acesso AWS, contas e serviços
+
+## 4. AWS Organizations
+
+AWS Organizations é uma poderosa ferramenta para gerenciar, organizar e aplicar políticas de segurança em um ambiente multi-conta AWS.
+
+Utilizando OUs e SCPs, é possível manter um controle rigoroso sobre as permissões e garantir conformidade em toda a organização, enquanto aproveita a flexibilidade e a escalabilidade da nuvem AWS.
+
+**Lembre-se para o exame, que:**
+
+- O AWS Organizations é um serviço de gerenciamento de contas, que permite **consolidar várias contas AWS**, **em uma única organização**.
+- A grande vantagem de utilizar o AWS Organizations é obter **faturamento consolidado**.
+
+Nesse diagrama do AWS Organizations, é possível ver a Master Account, Unidades Organizacionais (OUs), Contas AWS e políticas de acesso (ServiceControlPolicies).
+
+![aws-organizations](images/aws_organizations.jpg)
+
+## 3.2 Definir a infraestrutura global da AWS.
+
+Sua infraestrutura é constituída por Regiões, Zonas de Disponibilidade, Pontos de Presença (também conhecido como locais de borda) e zonas locais
+
+Uma **Região da AWS** é uma localização física no mundo, é completamente independente e contém várias zonas de disponibilidade.
+
+Uma **Zona de Disponibilidade** consistem em um ou mais data centers discretos, cada um com energia redundante, rede, alojados em instalações separadas e conectados com links de baixa latência
+
+Os **Pontos de Presença(Locais de borda)** são uma infraestrutura de servidores alocados distantes de regiões da AWS, e servem como **cache de informações dos dados de usuários,** para acelerar a entrega de conteúdo para usuários distantes.
+
+E as **Zonas Locais** são um tipo de **implantação de infraestrutura da AWS** que oferecem baixa latência em algum ponto geográfico, sendo geralmente associado em alguma cidade , permitindo aplicações com requisitos de latência inferior a 10 milissegundos aos usuários, devido ter uma **conexão de rede privada direta**, com uma AZ da AWS.
+
+> *Resumo:*
+> 
+- ***Edge Locations (Pontos de Presença):** Ideais para distribuição de conteúdo estático e dinâmico, aceleração de sites, APIs, e melhoria de desempenho global e segurança.*
+- ***Local Zones (Zonas Locais):** Melhor utilizadas para aplicativos sensíveis à latência, que precisam de recursos computacionais próximos aos usuários, ou para garantir conformidade e desempenho específicos de uma região.*
+
+AZ’s(Availability Zone)
+
+- Você mantém controle completo e propriedade sobre a região na qual seus dados estão fisicamente localizados, facilitando o atendimento aos requisitos regionais de conformidade e residência de dados.
+- Observe que há uma taxa para transferência de dados entre regiões.
+- Cada Zona de Disponibilidade é projetada como uma zona de falha independente.
+- Se distribuir suas instâncias EC2 em várias Zonas de Disponibilidade e uma instância falhar, você pode projetar sua aplicação para que uma instância em outra Zona de Disponibilidade possa lidar com as solicitações.
+
+Para garantir que os recursos sejam distribuídos entre as Zonas de Disponibilidade de uma região, a AWS mapeia independentemente as Zonas de Disponibilidade para nomes de cada conta da AWS.
+
+Por exemplo, a Zona de Disponibilidade us-east-1a para sua conta da AWS pode não ser a mesma localização que us-east-1a para outra conta da AWS.
+
+Para coordenar as zonas de disponibilidade entre contas, use o *ID da AZ* que é um identificador exclusivo e consistente para uma zona de disponibilidade.Por exemplo,`use1-az2` é uma ID AZ para a `us-east-1` região e tem a mesma localização em todas as AWS contas.
