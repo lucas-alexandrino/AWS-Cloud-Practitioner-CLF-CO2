@@ -1,9 +1,10 @@
+<!--- 
 <style>
 r { color: Red }
 o { color: Orange }
 g { color: Green }
 </style>
-
+-->
 <!--- 
 
 🔴 red: +5V
@@ -119,12 +120,11 @@ Developer, Business, Enterprise On-Ramp, Enterprise
 
 ### Legenda:
 
-Service quotas:
-Trusted Advisor(**consultor confiável)**:Ferramenta da AWS para te ajudar através de conselhos e indicações, como Reduzir custo, Aumentar a performance, Melhorar a Segurança e te indicar Possíveis falhas futuras(Fault tolerance).
-API do Support
-Support automation workflows
-AWS Countdown
-AWS re:Post: Comunidade(Fórum) da AWS, tendo acessos a conteúdos selecionados e especialistas cloud
+- **Service quotas**(cotas de serviço)**:** Limites impostas via recurso(numero máximo de EC2 em uma região) ou conta (numero máximo de buckets em um s3), existem limites flexíveis(soft limits) e não flexíveis(hard limits)
+- **Trusted Advisor**(consultor confiável**)**:Ferramenta da AWS para te ajudar através de conselhos e indicações, como Reduzir custo, Aumentar a performance, Melhorar a Segurança e te indicar Possíveis falhas futuras(Fault tolerance).
+- **API do Support**: API utilizada para abrir casos no suporte(Apenas enterprise on-Ramp, ou enterprise)
+- **Support automation workflows**: Diagnostico e correção automático a partir de coleções de troubleshooting comuns feitos pela engenharia do suporte.
+- **AWS re:Post**: Comunidade(Fórum) da AWS, tendo acessos a conteúdos selecionados e especialistas cloud
 
 ![planos_support](images/planos_support.png)
 
