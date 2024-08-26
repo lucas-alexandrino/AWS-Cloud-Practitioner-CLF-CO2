@@ -208,3 +208,17 @@ Para garantir que os recursos sejam distribuídos entre as Zonas de Disponibilid
 Por exemplo, a Zona de Disponibilidade us-east-1a para sua conta da AWS pode não ser a mesma localização que us-east-1a para outra conta da AWS.
 
 Para coordenar as zonas de disponibilidade entre contas, use o *ID da AZ* que é um identificador exclusivo e consistente para uma zona de disponibilidade.Por exemplo,`use1-az2` é uma ID AZ para a `us-east-1` região e tem a mesma localização em todas as AWS contas.
+
+
+### CloudFront
+
+![regional-edge-caches.png](images/regional-edge-caches.png)
+
+## 2.1 Modelo de responsabilidade compartilhada da AWS
+
+O modelo de responsabilidade compartilhada da AWS define o que você (como titular/usuário de uma conta AWS) e a AWS são responsáveis no que diz respeito à segurança e conformidade.
+
+- Responsabilidade da AWS: “segurança DA nuvem”: a AWS é responsável por proteger a infraestrutura que executa todos os serviços oferecidos na Nuvem AWS. Essa infraestrutura é composta por hardware, software, redes e instalações que executam os Serviços de nuvem AWS.
+- Responsabilidade do cliente: “segurança NA nuvem”: a responsabilidade do cliente será determinada pelos Serviços de nuvem AWS selecionados por ele.
+
+![00.2_shared-responsibility-model_PT-BR.png](images/00.2_shared-responsibility-model_PT-BR.png)
