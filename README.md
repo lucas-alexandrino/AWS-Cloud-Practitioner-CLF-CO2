@@ -222,3 +222,44 @@ O modelo de responsabilidade compartilhada da AWS define o que você (como titul
 - Responsabilidade do cliente: “segurança NA nuvem”: a responsabilidade do cliente será determinada pelos Serviços de nuvem AWS selecionados por ele.
 
 ![00.2_shared-responsibility-model_PT-BR.png](images/00.2_shared-responsibility-model_PT-BR.png)
+
+## 3.3 EC2
+
+O Amazon Elastic Compute Cloud (Amazon EC2) é um serviço de **virtualização** na nuvem da AWS, sendo um dos principais serviços da AWS.
+
+### Hypervisor
+
+Um hipervisor é um hardware, software ou firmware que cria e gerencia máquinas virtuais e aloca recursos a elas.
+
+![vm-docker.png](images/vm-docker.png)
+
+![docker.png](images/docker.png)
+
+### Tipos de instância do Amazon EC2
+
+**Nomenclatura para classificação de instâncias** 
+
+- **Instâncias de Uso Geral (A, T, M)**
+- **Instâncias Otimizadas para Computação (C)**
+- **Instâncias Otimizadas para Memória (R, X, U, Z)**
+- **Instâncias Otimizadas para Armazenamento (D, I, H)**
+    - Começam com I(IOPS) e D
+
+### Modelos de preço EC2
+
+- **On Demand**
+    - As instâncias sob demanda permitem que você pague pela capacidade computacional **por hora ou segundo**, sem nenhum compromisso de longo prazo.
+- **Reserva de capacidade sob demanda**
+    - Permitem que você reserve capacidade de computação para suas instâncias do EC2 em uma zona de disponibilidade específica por **qualquer duração**. As reservas de capacidade reduzem o risco de não conseguir obter capacidade sob demanda em caso de restrições de capacidade e garantem que você sempre tenha acesso à capacidade do EC2 quando precisar.
+- **Spot**
+    - Instâncias EC2 menos estáveis, ofertadas com base na **oferta e demanda**, quando sua solicitação Spot for atendida, suas Instâncias Spot serão lançadas no preço Spot atual, não excedendo o preço On Demand.
+- **Dedicated**
+    - Hardware físico dedicado especificamente para sua aplicação, utilizado por empresas que por questões de conformidade e regulação, necessitem de ter um hardware único e não compartilhado, para armazenamento de dados (Financeiro/Governos)
+- **Saving Plans**
+    - Menor custo que On Demand, pelo compromisso com uma quantidade consistente de uso (medida em $/hora) por um período de 1 ou 3 anos. Existem 3 tipos de Saving Plans
+        - **Compute Savings Plans**
+            - Os Compute Savings Plans fornecem a **maior flexibilidade**. Esses planos se aplicam automaticamente ao uso da instância do EC2, **independentemente de família de instâncias**, tamanho, AZ, região, sistema operacional ou locação da instância, e também se aplicam ao uso do **Fargate ou Lambda**.
+        - **EC2 Instance Savings Plans**
+            - Os EC2 Instance Savings Plans fornecem os preços mais baixos em troca do comprometimento com o uso de **famílias de instâncias** individuais em uma região (por exemplo, usar M5 no Norte da Virginia). Isso reduz automaticamente seu custo na **família de instâncias selecionadas nessa região**, qualquer que seja a AZ, o tamanho, o sistema operacional ou a locação.
+        - **Amazon SageMaker Savings Plans**
+            - O mesmo do Compute Savings Plans, porém para uso de instâncias tipos ML(Machine Learning)
