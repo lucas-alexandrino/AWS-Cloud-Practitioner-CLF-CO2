@@ -279,7 +279,7 @@ A tabela abaixo descreve algumas diferenças entre **Security Groups** e **Ne
 | Opera no nível de **instância** (interface)                      | Opera no nível de sub-rede 
 | Avalia todas as regras                                           | Processa as regras na ordem 
 | **Stateful** (se foi permitido entrar, é permitido sair)         | **Stateles** (precisa de uma regra de entrada 
-                                                                     e outra regra de saida)
+                                                                    | e outra regra de saida)
 | Suporta apenas **regras de permissão**                            | Suporta **regras de permissão e negação** 
 
 
