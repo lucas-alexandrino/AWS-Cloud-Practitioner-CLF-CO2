@@ -263,3 +263,24 @@ Um hipervisor é um hardware, software ou firmware que cria e gerencia máquinas
             - Os EC2 Instance Savings Plans fornecem os preços mais baixos em troca do comprometimento com o uso de **famílias de instâncias** individuais em uma região (por exemplo, usar M5 no Norte da Virginia). Isso reduz automaticamente seu custo na **família de instâncias selecionadas nessa região**, qualquer que seja a AZ, o tamanho, o sistema operacional ou a locação.
         - **Amazon SageMaker Savings Plans**
             - O mesmo do Compute Savings Plans, porém para uso de instâncias tipos ML(Machine Learning)
+
+
+## 2.4 Security Groups e ACLs(Firewalls)
+
+As **Listas de Controle de Acesso à Rede (ACLs)** fornecem uma camada de firewall/segurança no nível de sub-rede.
+
+Os **Security Groups** fornecem uma camada de firewall/segurança no nível de instância.
+
+A tabela abaixo descreve algumas diferenças entre **Security Groups** e **Network ACLs**:
+
+| **GRUPOS DE SEGURANÇA** | **LISTA DE CONTROLE DE ACESSO À REDE (NACLs)** |
+| ---                     | ---                                            |
+| Aplica-se a **uma** **instância** apenas se associada a um grupo | Aplica-se automaticamente a **todas as instâncias**                                                       |nas sub-redes com as quais está associada 
+| Opera no nível de **instância** (interface)                      | Opera no nível de sub-rede 
+| Avalia todas as regras                                           | Processa as regras na ordem 
+| **Stateful** (se foi permitido entrar, é permitido sair)         | **Stateles** (precisa de uma regra de entrada 
+                                                                     e outra regra de saida)
+| Suporta apenas **regras de permissão**                            | Suporta **regras de permissão e negação** 
+
+
+![states.png](images/stateless_full.png)
