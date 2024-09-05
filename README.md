@@ -338,3 +338,39 @@ Em resumo, o Amazon FSx é um serviço poderoso e flexível que torna mais fáci
     
     EFS é para Linux, FSx para Windows
 
+## Amazon S3
+
+O Amazon S3 é um armazenamento de objetos projetado para armazenar e recuperar qualquer quantidade de dados de qualquer lugar – sites e aplicativos móveis, aplicativos corporativos e **dados de sensores ou dispositivos IoT**.
+
+- Você pode armazenar qualquer tipo de arquivo no S3.
+- Os arquivos podem ter de 0 bytes a 5 TB.
+- Não há limite de armazenamento disponível.
+- Os arquivos são armazenados em buckets e são chamados de objetos.
+- Buckets são pastas de nível raiz.
+- Qualquer subpasta em um bucket, é conhecida como “pasta”.
+- O S3 é um namespace universal, então os nomes de buckets devem ser exclusivos globalmente.
+- Ao criar um bucket, você precisa selecionar a região onde ele será criado.
+
+**Atenção**: Enquanto o Amazon S3 é um serviço global, o Bucket S3 é um serviço regional.
+
+**Existem oito classes de armazenamento do S3:**
+
+1. S3 Padrão (durável, imediatamente disponível, acessado com frequência).
+2. S3 Intelligent-Tiering (move automaticamente dados para a camada mais econômica).
+3. S3 Padrão-IA (durável, imediatamente disponível, acessado com pouca frequência).
+4. S3 One Zone-IA (custo mais baixo para dados acessados com pouca frequência, com menos resiliência).
+5. S3 Glacier Instant Retrieval (dados raramente acessados e que exigem recuperação em milissegundos).
+6. S3 Glacier Flexible Retrieval (dados arquivados, tempos de recuperação em minutos ou horas).
+7. S3 Glacier Deep Archive (classe de armazenamento de menor custo para retenção de longo prazo).
+8. S3 Outpost (armazenamento de objetos para seu ambiente de AWS Outposts on-premises).
+
+         
+
+A tabela a seguir fornece uma descrição de armazenamentos de dados persistentes, transitórios e efêmeros e qual serviço da AWS usar:
+
+| **TIPO DE ARMAZENAMENTO** | **DESCRIÇÃO** | **EXEMPLOS** |
+| --- | --- | --- |
+| Persistente | Dados são duráveis e permanecem após reinicializações, reinícios ou ciclos de energia. | S3, Glacier, EBS, EFS |
+| Transitório | Dados são apenas armazenados temporariamente e passados para outro processo ou armazenamento persistente. | SQS, SNS |
+| Efêmero | Dados são perdidos quando o sistema é desligado. | Armazenamento de Instância EC2, Memcached |
+
