@@ -376,7 +376,7 @@ A tabela a seguir fornece uma descrição de armazenamentos de dados persistente
 
 ## AWS Storage Gateway
 
-![types-of-aws-gateway.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/707f6673-96d0-4736-bd71-ef4130ab6c39/691c7298-384c-4bfd-a34d-2ceb69877a65/types-of-aws-gateway.jpg)
+![types-of-aws-gateway.jpg](images/types-of-aws-gateway.jpg)
 
 ## 3.3 ASG e ALB
 
