@@ -374,3 +374,65 @@ A tabela a seguir fornece uma descrição de armazenamentos de dados persistente
 | Transitório | Dados são apenas armazenados temporariamente e passados para outro processo ou armazenamento persistente. | SQS, SNS |
 | Efêmero | Dados são perdidos quando o sistema é desligado. | Armazenamento de Instância EC2, Memcached |
 
+## AWS Storage Gateway
+
+![types-of-aws-gateway.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/707f6673-96d0-4736-bd71-ef4130ab6c39/691c7298-384c-4bfd-a34d-2ceb69877a65/types-of-aws-gateway.jpg)
+
+## 3.3 ASG e ALB
+
+Diferença entre Escalabilidade, elasticidade e disponibilidade
+
+- **Escalabilidade**
+    - Horizontal
+        - Scale out: inicia novas instâncias
+        - Scale in: termina novas instâncias
+    - Vertical
+        - Scale up: melhorar as instâncias
+
+- **Elasticidade**
+    
+    Capacidade de **dimensionamento**(dimensionar) automaticamente as mudanças conforme a demanda.
+    Como se fosse literalmente um elástico.
+    
+    - Horizontal
+        - Capacidade de diminuir(scale-in) ou aumentar (scale-out) automaticamente de acordo com a necessidade
+    - Vertical
+        - Capacidade de melhorar(scale-up) ou diminuir (scale-down) os recursos de uma instância
+- **Disponibilidade**
+    
+    Capacidade de espalhar os recursos ou servidores(instâncias) em varias zonas de disponibilidade(AZs)
+    
+    ![Elastic ASG.jpg](images/Elastic%20ASG.jpg)
+    
+
+### **Amazon EC2 Auto Scaling**
+
+O **Amazon EC2 Auto Scaling** automatiza o processo de lançamento (escalonamento para fora) e término (escalonamento para dentro) de instâncias Amazon EC2 com base na demanda de tráfego para sua aplicação.
+
+> *O Amazon EC2 Auto Scaling fornece elasticidade e escalabilidade.*
+> 
+
+Você cria **coleções** de instâncias EC2, chamadas de grupo Auto Scaling (ASG).
+
+Você pode especificar um **número mínimo**, **desejado** e **máximo** de instâncias em cada ASG.
+
+Por exemplo, o seguinte grupo do Auto Scaling tem um tamanho mínimo de uma (01) instância, uma capacidade desejada de duas (02) instâncias e um tamanho máximo de quatro (04) instâncias.
+
+![ASG-AWS.png](images/ASG-AWS.png)
+
+**Políticas de Escalabilidade**
+
+As políticas de escalabilidade que você define ajustam o número de instâncias, dentro dos limites mínimo e máximo de instâncias, com base nos critérios que você especifica.
+
+As políticas de dimensionamento determinam quando, se e como o ASG escala e diminui, usando:
+
+- **Escalonamento dinâmico/on-demand:** Ajusta a quantidade de instâncias em resposta a mudanças na demanda.
+- **Escalonamento cíclico/agendado:** Ajusta a quantidade de instâncias em horários específicos, de acordo com um cronograma.
+
+**Planos de Dimensionamento**
+
+Os Planos de Dimensionamento definem os gatilhos e momentos em que as instâncias devem ser provisionadas ou desprovisionadas.
+
+Você pode especificar políticas de dimensionamento que controlam quando o Auto Scaling inicia ou termina instâncias.
+
+
