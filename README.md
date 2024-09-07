@@ -435,4 +435,63 @@ Os Planos de Dimensionamento definem os gatilhos e momentos em que as instância
 
 Você pode especificar políticas de dimensionamento que controlam quando o Auto Scaling inicia ou termina instâncias.
 
+### **Amazon Elastic Load Balancing (ELB)**
+
+O Amazon Elastic Load Balancing (ELB) distribui automaticamente o tráfego de aplicativos recebido entre vários destinos, como **instâncias Amazon EC2**, **contêineres** e **endereços IP**.
+
+O ELB pode lidar com a carga variável do tráfego da sua aplicação em **várias Zonas de Disponibilidade**.
+
+Ele também possui alta disponibilidade, dimensionamento automático e segurança robusta necessária para tornar suas aplicações tolerantes a falhas.
+
+> *Existem três tipos de Balanceador de Carga Elástico (ELB) na AWS:*
+> 
+
+![types elb.jpeg](images/types%20elb.jpeg)
+
+## 3.4 Serviços de banco de dados na AWS
+
+![TIPOS DE BANCO DE DADOS!](images/tipos-de-banco-de-dados-aws.jpg)
+
+TIPOS DE BANCO DE DADOS!
+
+### **Amazon Relational Database Service (RDS)**
+
+O Amazon Relational Database Service (Amazon RDS) é um **serviço gerenciado** que facilita a configuração, operação e escalabilidade de um banco de dados relacional na nuvem.
+
+> *RDS é um tipo de banco de dados Online Transaction Processing (OLTP).*
+> 
+
+> O Amazon RDS é um serviço totalmente gerenciado e você não tem acesso à instância EC2 subjacente (sem acesso ao root).
+> 
+
+                                       **Mecanismos de Banco de Dados Suportados no Amazon RDS**
+
+1. IBM db2
+2. MySQL
+3. PostgreSQL
+4. Microsoft SQL Server
+5. Oracle
+6. MariaDB
+
+O **Amazon Aurora**, apesar de estar sendo demonstrado como **mecanismo** no **Amazon RDS**, ele é um serviço de propriedade AWS, e utiliza seu **próprio mecanismo para gerenciar** um banco de dados relacional MySQL e PostgreSQL.
+
+**O Serviço RDS Inclui:**
+
+- Segurança e atualização das instâncias de banco de dados.
+- Backup automático para as instâncias de banco de dados.
+- Atualizações de software para o mecanismo de banco de dados.
+- Escalonamento fácil para armazenamento e computação.
+- **Opção** Multi-AZ com replicação síncrona.
+- Failover automático para opção Multi-AZ.
+- Horas de instância do banco de dados (horas parciais são cobradas como horas completas).
+- Opção de réplicas de leitura para cargas de trabalho de leitura intensiva.
+- As réplicas de leitura são usadas para bancos de dados com muitas leituras e a replicação é assíncrona.
+- Réplicas de leitura são para compartilhamento de carga de trabalho e alívio de carga.
+
+**Escalabilidade:**
+
+- Você só pode **escalar o RDS para cima** (computação e armazenamento).
+- Você não pode **diminuir o armazenamento alocado** para uma instância do RDS.
+- Você pode escalar o armazenamento e alterar o tipo de armazenamento para todos os mecanismos de banco de dados, exceto o MS SQL.
+
 
