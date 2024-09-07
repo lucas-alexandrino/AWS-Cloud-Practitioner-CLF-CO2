@@ -464,7 +464,7 @@ O Amazon Relational Database Service (Amazon RDS) é um **serviço gerenciado** 
 > O Amazon RDS é um serviço totalmente gerenciado e você não tem acesso à instância EC2 subjacente (sem acesso ao root).
 > 
 
-                                       **Mecanismos de Banco de Dados Suportados no Amazon RDS**
+**Mecanismos de Banco de Dados Suportados no Amazon RDS**
 
 1. IBM db2
 2. MySQL
