@@ -494,4 +494,42 @@ O **Amazon Aurora**, apesar de estar sendo demonstrado como **mecanismo** no **A
 - Você não pode **diminuir o armazenamento alocado** para uma instância do RDS.
 - Você pode escalar o armazenamento e alterar o tipo de armazenamento para todos os mecanismos de banco de dados, exceto o MS SQL.
 
+### **Amazon ElastiCache**
+
+ElastiCache é um serviço web que facilita a implantação e execução de nós de servidor compatíveis com os protocolos Memcached ou Redis na nuvem.
+
+- Cache em memória que melhora significativamente a latência e o throughput para muitas cargas de trabalho de aplicativos voltadas para leitura ou cargas de trabalho intensivas de computação(ML/IA).
+- Melhor para cenários em que a carga do banco de dados é baseada em transações de Processamento Analítico Online (OLAP).
+- Os nós EC2 ElastiCache não podem ser acessados pela Internet, nem podem ser acessados por instâncias EC2 em outras VPCs.
+- Pode ser em instâncias sob demanda ou reservadas (mas não em instâncias Spot).
+
+| **CASOS DE USO** | **BENEFÍCIOS** |
+| --- | --- |
+| Armazenamento de Sessão Web | Em casos com servidores web equilibrados, armazene informações de sessão na **Redis**, para que, **se um servidor for perdido**, as **informações da sessão** não sejam perdidas e **outro servidor web possa recuperá-las**. |
+| Cache de Banco de Dados | Use o Memcached na frente do AWS RDS para armazenar consultas populares para aliviar o trabalho do RDS e retornar resultados mais rapidamente aos usuários. |
+| Quadros de Classificação | Use o Redis para fornecer um quadro de classificação ao vivo para milhões de usuários do seu aplicativo móvel. |
+| Dashboards de Dados em Tempo Real | Forneça um local para dados de sensores em tempo real no chão de fábrica, fornecendo displays de painel ao vivo em tempo real. |
+
+**Existem dois tipos de mecanismos do ElastiCache:**
+
+1. **Memcached**: modelo mais simples, pode executar grandes nós com vários núcleos/tarefas, pode ser dimensionado para cima e para baixo, pode armazenar objetos como bancos de dados.
+2. **Redis**: modelo mais complexo, suporta criptografia, replicação mestre/escravo, cross-AZ (alta disponibilidade), failover automático e backup/restauração.
+
+## **Amazon DynamoDB**
+
+Amazon DynamoDB é um serviço de banco de dados NoSQL totalmente gerenciado que oferece desempenho rápido e previsível com escalabilidade contínua.
+
+**Características do DynamoDB**
+
+1. Baseado em SSD e usa indexação limitada em atributos para desempenho.
+2. Usa HTTP sobre SSL (HTTPS) como transporte e JSON como formato de serialização de mensagem.
+3. Armazena três réplicas geograficamente distribuídas de cada tabela para alta disponibilidade e durabilidade de dados.
+4. Replicação síncrona em três instalações (AZs) em uma região.
+5. Escala armazenamento e throughput para cima ou para baixo conforme necessário sem alterações de código ou tempo de inatividade.
+
+**Fornece dois modelos de leitura:**
+
+- **Leituras eventualmente consistentes (padrão)**:A opção de consistência eventual maximiza seu throughput de leitura (melhor desempenho de leitura).Uma leitura eventualmente consistente **pode não refletir os resultados de uma gravação concluída recentemente**. Consistência em todas as cópias alcançada dentro de 1 segundo.
+- **Leituras fortemente consistentes:** Uma leitura fortemente consistente retorna um resultado **que reflete todas as gravações** que receberam uma resposta bem-sucedida antes da leitura (consistência mais rápida).
+
 
