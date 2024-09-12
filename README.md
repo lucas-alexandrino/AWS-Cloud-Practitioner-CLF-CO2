@@ -533,3 +533,15 @@ Amazon DynamoDB é um serviço de banco de dados NoSQL totalmente gerenciado que
 - **Leituras fortemente consistentes:** Uma leitura fortemente consistente retorna um resultado **que reflete todas as gravações** que receberam uma resposta bem-sucedida antes da leitura (consistência mais rápida).
 
 
+## Data Analytics Reference/Processo
+
+![data_analytics](images/data_analytics.png)
+
+EMR:Amazon Elastic MapReduce
+SageMaker: Modelos de ML
+
+![oltp.png](images/oltp.png)
+
+![dados.png](images/dados.png)
+
+**O OLAP é otimizado para análises e relatórios de dados complexos, enquanto o OLTP é otimizado para processamento transacional e atualizações em tempo real.**
