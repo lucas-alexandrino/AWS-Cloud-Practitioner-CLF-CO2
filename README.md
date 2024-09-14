@@ -540,8 +540,10 @@ Amazon DynamoDB é um serviço de banco de dados NoSQL totalmente gerenciado que
 EMR:Amazon Elastic MapReduce
 SageMaker: Modelos de ML
 
-![oltp.png](images/oltp.png)
+<p float="left">
+  <img src="images/oltp.png" width="400" />
+  <img src="images/dados.png" width="400" /> 
+</p>
 
-![dados.png](images/dados.png)
 
 **O OLAP é otimizado para análises e relatórios de dados complexos, enquanto o OLTP é otimizado para processamento transacional e atualizações em tempo real.**
