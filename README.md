@@ -540,10 +540,49 @@ Amazon DynamoDB é um serviço de banco de dados NoSQL totalmente gerenciado que
 EMR:Amazon Elastic MapReduce
 SageMaker: Modelos de ML
 
-<p float="left">
-  <img src="images/oltp.png" width="400" />
-  <img src="images/dados.png" width="400" /> 
-</p>
+![oltp.png](images/oltp.png)
 
+![dados.png](images/dados.png)
 
 **O OLAP é otimizado para análises e relatórios de dados complexos, enquanto o OLTP é otimizado para processamento transacional e atualizações em tempo real.**
+
+## 3.5 Serviços de rede da AWS
+
+### VPC (Virtual Private Cloud)
+
+Um *Amazon Virtual Private Cloud (VPC)* é uma rede virtual dedicada à sua conta AWS. Ele é logicamente isolado de outras redes virtuais na AWS Cloud.
+
+> *Use como analogia, ter seu próprio data center dentro da AWS.*
+> 
+
+O seguinte diagrama mostra uma VPC, que possui uma sub-rede em cada zona de disponibilidade na região, instâncias do EC2 em cada sub-rede e um gateway da Internet para permitir a comunicação **entre os recursos em sua VPC e a Internet:**
+
+![amazon-vpc.png](images/amazon-vpc.png)
+
+1. Quando você cria sua conta AWS pela primeira vez, uma VPC padrão é criada para você em cada região AWS, com uma sub-rede em cada AZ (zona de disponibilidade).
+2. Uma VPC abrange todas as Zonas de Disponibilidade (AZ) na região.
+3. Oferece controle total sobre o ambiente de rede virtual, incluindo seleção de intervalos de IP, criação de sub-redes e configuração de tabelas de roteamento e gateways.
+4. Você pode **criar seus próprios intervalos de endereços IP** e **criar sub-redes**, **tabelas de roteamento** e **gateways de rede**.
+
+A VPC padrão possui **todas as sub-redes públicas.**
+
+As **sub-redes públicas** são sub-redes que têm:
+
+- “Auto-atribuir endereço IPv4 público” definido como “Sim”.
+- A tabela de roteamento da sub-rede tem um Gateway de Internet anexado.
+
+As **instâncias na VPC padrão** sempre têm tanto um endereço IP **público** quanto um endereço IP **privado**.
+
+**Componentes de uma VPC**
+
+- **Virtual Private Cloud:** Uma rede virtual logicamente isolada na AWS. Você define o espaço de endereço IP de uma VPC a partir dos intervalos que você seleciona.
+- **Subnet:** Um segmento do intervalo de endereços IP de uma VPC onde você pode colocar grupos de recursos isolados (um para um mapeamento com uma AZ).
+- **Internet Gateway:** A parte da Amazon VPC de uma conexão com a Internet pública.
+- **NAT Gateway:** Um serviço de Tradução de Endereço de Rede (NAT) gerenciado e altamente disponível para seus recursos em uma sub-rede privada acessarem a Internet.
+- **Conexão VPN de hardware:** Uma conexão VPN baseada em hardware entre sua Amazon VPC e seu data center, rede doméstica ou instalação de co-localização.
+- **Virtual Private Gateway:** A parte da Amazon VPC de uma conexão VPN.
+- **Customer Gateway:** Sua parte de uma conexão VPN.
+- **Roteador:** Roteadores interconectam sub-redes e direcionam o tráfego entre Gateways de Internet, Gateways Privados Virtuais, Gateways NAT e sub-redes.
+- **Conexão de Interligação:** Uma conexão de interligação permite que você roteie o tráfego via endereços IP privados entre duas VPCs interligadas.
+- **Pontos de Extremidade da VPC:** Permitem conectividade privada a serviços hospedados na AWS, de dentro da sua VPC, sem usar um Gateway de Internet, VPN, dispositivos de Tradução de Endereços de Rede (NAT) ou proxies de firewall.
+- **Gateway de Internet somente de saída:** Um gateway com estado para fornecer acesso de saída somente para o tráfego IPv6 da VPC para a Internet.
