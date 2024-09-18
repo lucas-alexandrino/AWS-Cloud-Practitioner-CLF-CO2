@@ -586,3 +586,20 @@ As **instâncias na VPC padrão** sempre têm tanto um endereço IP **público**
 - **Conexão de Interligação:** Uma conexão de interligação permite que você roteie o tráfego via endereços IP privados entre duas VPCs interligadas.
 - **Pontos de Extremidade da VPC:** Permitem conectividade privada a serviços hospedados na AWS, de dentro da sua VPC, sem usar um Gateway de Internet, VPN, dispositivos de Tradução de Endereços de Rede (NAT) ou proxies de firewall.
 - **Gateway de Internet somente de saída:** Um gateway com estado para fornecer acesso de saída somente para o tráfego IPv6 da VPC para a Internet.
+
+## Resumo VPC
+
+![vpc_resumo](images/vpc_resumo.jpeg)
+
+### VPC Endpoint
+
+Existem três tipos de endpoints da VPC: 
+
+- ***endpoints de interface***
+- ***endpoints de gateway***
+- **endpoints de balanceador de carga de gateway**
+
+Os endpoints de interface e endpoints de balanceador de carga de gateway são desenvolvidos pelo **AWS PrivateLink** e usam uma interface de rede elástica (**ENI**) como ponto de entrada para o tráfego destinado ao serviço. 
+Os endpoints de interface normalmente são acessados usando o nome DNS público ou privado associado ao serviço, enquanto os endpoints de gateway e endpoints de balanceador de carga de gateway funcionam como **destino para uma rota na tabela de rotas** para o tráfego destinado ao serviço.
+
+![vpc_endpoint](images/vpc_endpoint.jpeg)
