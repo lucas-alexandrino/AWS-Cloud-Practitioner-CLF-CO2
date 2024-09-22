@@ -589,7 +589,7 @@ As **instâncias na VPC padrão** sempre têm tanto um endereço IP **público**
 
 ## Resumo VPC
 
-![vpc_resumo](images/vpc_resumo.jpeg)
+![vpc_resumo](images/VPC.jpg)
 
 ### VPC Endpoint
 
@@ -602,4 +602,4 @@ Existem três tipos de endpoints da VPC:
 Os endpoints de interface e endpoints de balanceador de carga de gateway são desenvolvidos pelo **AWS PrivateLink** e usam uma interface de rede elástica (**ENI**) como ponto de entrada para o tráfego destinado ao serviço. 
 Os endpoints de interface normalmente são acessados usando o nome DNS público ou privado associado ao serviço, enquanto os endpoints de gateway e endpoints de balanceador de carga de gateway funcionam como **destino para uma rota na tabela de rotas** para o tráfego destinado ao serviço.
 
-![vpc_endpoint](images/vpc_endpoint.jpeg)
+![vpc_endpoint](images/vpc_endpoint.jpg)
