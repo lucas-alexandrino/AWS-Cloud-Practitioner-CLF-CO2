@@ -603,3 +603,12 @@ Os endpoints de interface e endpoints de balanceador de carga de gateway são de
 Os endpoints de interface normalmente são acessados usando o nome DNS público ou privado associado ao serviço, enquanto os endpoints de gateway e endpoints de balanceador de carga de gateway funcionam como **destino para uma rota na tabela de rotas** para o tráfego destinado ao serviço.
 
 ![vpc_endpoint](images/vpc_endpoint.jpg)
+
+### AWS PrivateLink
+
+O **AWS PrivateLink** fornece conectividade privada entre **nuvens privadas virtuais (VPCs), serviços da AWS ou terceiros, Marketplace e suas redes on-premises** **sem expor seu tráfego à Internet pública**. 
+
+O PrivateLink utiliza ENI (Elastic Network Interface) que funcionam como um NIC(em Inglês, cartão de rede virtual) que é uma representação virtual de uma placa de rede física.
+
+> ENIs podem ser anexadas e desanexadas de instâncias EC2, e a configuração da ENI será mantida.
+>
