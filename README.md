@@ -126,7 +126,7 @@ Developer, Business, Enterprise On-Ramp, Enterprise
 - **Support automation workflows**: Diagnostico e correção automático a partir de coleções de troubleshooting comuns feitos pela engenharia do suporte.
 - **AWS re:Post**: Comunidade(Fórum) da AWS, tendo acessos a conteúdos selecionados e especialistas cloud
 
-![planos_support](images/planos_support.png)
+
 ![planos_support2](images/support2.jpg)
 
 ## 2.3 IAM
