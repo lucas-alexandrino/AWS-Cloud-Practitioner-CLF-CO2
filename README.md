@@ -127,6 +127,7 @@ Developer, Business, Enterprise On-Ramp, Enterprise
 - **AWS re:Post**: Comunidade(Fórum) da AWS, tendo acessos a conteúdos selecionados e especialistas cloud
 
 ![planos_support](images/planos_support.png)
+![planos_support2](images/support2.jpg)
 
 ## 2.3 IAM
 
