@@ -613,3 +613,5 @@ O PrivateLink utiliza ENI (Elastic Network Interface) que funcionam como um NIC(
 
 > ENIs podem ser anexadas e desanexadas de instâncias EC2, e a configuração da ENI será mantida.
 >
+
+###  Client e Site to Site VPN
