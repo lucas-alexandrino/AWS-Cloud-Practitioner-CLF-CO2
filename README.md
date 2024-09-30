@@ -614,5 +614,19 @@ O PrivateLink utiliza ENI (Elastic Network Interface) que funcionam como um NIC(
 > ENIs podem ser anexadas e desanexadas de instâncias EC2, e a configuração da ENI será mantida.
 >
 
+## **Client e Site to Site VPN**
 
-###  Client e Site to Site VPN
+## **AWS Direct Connect (DX)**
+
+![aws-direct-connect.jpg](images/aws-direct-connect.jpg)
+
+O **AWS Direct Connect** é um serviço de rede que fornece uma alternativa ao uso da Internet para conectar os locais no local do cliente à AWS.
+Os dados são transmitidos por meio de uma conexão de rede privada entre a AWS e o centro de dados ou rede corporativa do cliente.
+
+Cada conexão **AWS Direct Connect** pode ser configurada com uma ou mais **interfaces virtuais** (VIFs).
+
+- As VIFs públicas permitem acesso a serviços públicos como S3, EC2 e DynamoDB.
+- As VIFs privadas permitem acesso à sua VPC.
+
+> *As tabelas de roteamento precisam ser atualizadas para apontar para uma conexão Direct Connect.*
+>
