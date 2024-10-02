@@ -7,6 +7,11 @@ g { color: Green }
 -->
 <!--- 
 
+<p float="left">
+  <img src="images/hierarquia.png" width="400" />
+  <img src="images/piramidemodelos.png" width="400" /> 
+</p>
+
 🔴 red: +5V
 🟠 orange: +3.3V
 ⚫ black: ground
@@ -630,3 +635,12 @@ Cada conexão **AWS Direct Connect** pode ser configurada com uma ou mais **in
 
 > *As tabelas de roteamento precisam ser atualizadas para apontar para uma conexão Direct Connect.*
 >
+
+## AWS Transit Gateway
+
+O AWS Transit Gateway conecta suas Amazon Virtual Private Clouds (VPCs) e redes on-premises por meio de um hub central. Essa conexão simplifica a rede e elimina os complexos relacionamentos de emparelhamento. O Transit Gateway atua como um roteador de nuvem altamente escalável.
+
+<p float="left">
+  <img src="images/AWS-Transit-Gateway-Architecture.png" width="400" />
+  <img src="images/transitgateway.jpg" width="400" /> 
+</p>
