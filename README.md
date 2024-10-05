@@ -672,3 +672,12 @@ A tabela abaixo destaca a principal função de cada tipo de política de roteam
 | IP | Use quando quiser rotear o tráfego com base no local dos usuários e tiver os endereços IP de origem do tráfego. |
 | Resposta Multivalor | Retorna vários endereços IP e funciona como um balanceador de carga básico. |
 | Ponderada | Usa os pesos relativos atribuídos aos recursos para determinar para qual rotear. |
+
+![route_53](images/Route%2053.jpeg)
+
+## AWS Global Accelerator
+
+O AWS Global Accelerator é um serviço que melhora a **disponibilidade** e o **desempenho** de suas aplicações para usuários em todo o mundo. 
+Ele faz isso usando a *rede global altamente disponível da AWS* e redirecionando o tráfego de usuários para a aplicação **mais próxima em termos de latência**. Isso resulta em uma melhoria significativa na experiência do usuário.
+
+![global_acelerator](images/globalacelera.png)
