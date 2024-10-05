@@ -644,3 +644,31 @@ O AWS Transit Gateway conecta suas Amazon Virtual Private Clouds (VPCs) e redes 
   <img src="images/AWS-Transit-Gateway-Architecture.png" width="400" />
   <img src="images/transitgateway.jpg" width="400" /> 
 </p>
+
+## Amazon Route 53
+
+O Amazon Route 53 é o sistema de nome de domínio (**DNS**) da AWS, e possui três funções principais.
+
+- ***Registro de domínio***: Permite que você registre nomes de domínio),
+- ***DNS roteamento***: Traduz nomes em endereços IP usando uma rede global de servidores DNS autoritativos.
+- ***Verificação de integridade***: Envia solicitações automatizadas para sua aplicação para verificar se ela é alcançável, está disponível e funcional.
+
+Você pode usar qualquer combinação dessas funções.
+
+> ***Políticas de Roteamento***
+> 
+
+As políticas de roteamento determinam como o DNS do Route 53 responde às consultas.
+
+A tabela abaixo destaca a principal função de cada tipo de política de roteamento:
+
+| **POLÍTICA DE ROTEAMENTO** | **QUANDO USAR** |
+| --- | --- |
+| Simples | Resposta DNS simples fornecendo o endereço IP associado a um nome. |
+| Failover | Se o primário estiver inativo (com base em verificações de integridade), roteia para o destino secundário. |
+| Geolocalização | Usa a localização geográfica em que você está (por exemplo, Europa) para roteá-lo para a região mais próxima. |
+| Geoproximidade | Roteia para a região mais próxima em uma área geográfica. |
+| Latência | Direciona com base na rota de menor latência para os recursos. |
+| IP | Use quando quiser rotear o tráfego com base no local dos usuários e tiver os endereços IP de origem do tráfego. |
+| Resposta Multivalor | Retorna vários endereços IP e funciona como um balanceador de carga básico. |
+| Ponderada | Usa os pesos relativos atribuídos aos recursos para determinar para qual rotear. |
