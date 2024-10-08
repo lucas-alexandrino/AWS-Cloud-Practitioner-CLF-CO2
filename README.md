@@ -681,3 +681,22 @@ O AWS Global Accelerator é um serviço que melhora a **disponibilidade** e o **
 Ele faz isso usando a *rede global altamente disponível da AWS* e redirecionando o tráfego de usuários para a aplicação **mais próxima em termos de latência**. Isso resulta em uma melhoria significativa na experiência do usuário.
 
 ![global_acelerator](images/globalacelera.png)
+
+## 3.3 Containers
+
+### **Amazon Elastic Container Service (ECS)**
+
+O Amazon Elastic Container Service (ECS) fornece um serviço de **gerenciamento de contêiner** altamente escalável e de alto desempenho que suporta contêineres Docker e permite executar facilmente aplicativos em um cluster gerenciado de instâncias Amazon EC2.
+
+O Amazon ECS elimina a necessidade de instalar, operar e dimensionar sua própria **infraestrutura** de gerenciamento de cluster.
+
+Um ***tipo de lançamento*** do Amazon ECS determina o **tipo de infraestrutura** em que suas tarefas e serviços são hospedados
+
+> Existem dois tipos de lançamento:
+>
+| **Amazon EC2** | **Amazon Fargate** |
+| --- | --- |
+| Você provisiona explicitamente instâncias EC2 | O plano de controle solicita recursos e o Fargate provisiona automaticamente |
+| Você é responsável pela atualização, patching, cuidado do pool EC2 | O Fargate provisiona computação conforme necessário |
+| Você deve lidar com a otimização do cluster | O Fargate lida com a otimização do cluster |
+| Mais controle granular sobre a infraestrutura | Controle limitado, pois a infraestrutura é automatizada |
