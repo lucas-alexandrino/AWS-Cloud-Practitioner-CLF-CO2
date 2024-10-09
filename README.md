@@ -673,7 +673,6 @@ A tabela abaixo destaca a principal função de cada tipo de política de roteam
 | Resposta Multivalor | Retorna vários endereços IP e funciona como um balanceador de carga básico. |
 | Ponderada | Usa os pesos relativos atribuídos aos recursos para determinar para qual rotear. |
 
-![route_53](images/Route%2053.jpeg)
 
 ## AWS Global Accelerator
 
