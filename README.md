@@ -619,6 +619,8 @@ O PrivateLink utiliza ENI (Elastic Network Interface) que funcionam como um NIC(
 > ENIs podem ser anexadas e desanexadas de instâncias EC2, e a configuração da ENI será mantida.
 >
 
+![private_link](images/PrivateLink.png)
+
 ## **Client e Site to Site VPN**
 
 ## **AWS Direct Connect (DX)**
@@ -673,6 +675,7 @@ A tabela abaixo destaca a principal função de cada tipo de política de roteam
 | Resposta Multivalor | Retorna vários endereços IP e funciona como um balanceador de carga básico. |
 | Ponderada | Usa os pesos relativos atribuídos aos recursos para determinar para qual rotear. |
 
+![route_53](images/Route%2053.jpeg)
 
 ## AWS Global Accelerator
 
