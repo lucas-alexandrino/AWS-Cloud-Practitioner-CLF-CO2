@@ -623,6 +623,8 @@ O PrivateLink utiliza ENI (Elastic Network Interface) que funcionam como um NIC(
 
 ## **Client e Site to Site VPN**
 
+![vpn](images/VPN.png)
+
 ## **AWS Direct Connect (DX)**
 
 ![aws-direct-connect.jpg](images/aws-direct-connect.jpg)
