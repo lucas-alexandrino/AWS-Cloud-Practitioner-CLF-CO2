@@ -703,3 +703,13 @@ Um ***tipo de lançamento*** do Amazon ECS determina o **tipo de infraestrutura*
 | Você é responsável pela atualização, patching, cuidado do pool EC2 | O Fargate provisiona computação conforme necessário |
 | Você deve lidar com a otimização do cluster | O Fargate lida com a otimização do cluster |
 | Mais controle granular sobre a infraestrutura | Controle limitado, pois a infraestrutura é automatizada |
+
+### Amazon Elastic Container Registry (ECR)
+
+O Registro de Contêiner Elástico (ECR) é um serviço gerenciado da AWS Docker Registry para armazenar, gerenciar e implantar imagens **Docker**.
+
+### Amazon Elastic Kubernetes Service (EKS)
+
+O Amazon Elastic Container Service for Kubernetes (EKS) é um **serviço gerenciado de Kubernetes** que facilita a execução do Kubernetes na AWS sem a necessidade de instalar, operar e manter seu próprio **plano de controle do Kubernetes.**
+
+![docker_kubernetes](images/docker_kubernetes.jpg)
