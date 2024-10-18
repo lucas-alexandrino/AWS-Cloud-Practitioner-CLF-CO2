@@ -732,6 +732,21 @@ O Amazon Elastic Container Service for Kubernetes (EKS) é um **serviço gerenci
 - **Automação e Conectividade:** Facilita a automação de fluxos de trabalho e a conectividade entre serviços e aplicações.
 
 <p float="left">
+
   <img src="images/sns_sqs.jpg" width="400" />
   <img src="images/sqssns_eventbridge.jpg" width="400" /> 
 </p>
+
+## 3.3 Computação e Serverless
+
+### Amazon Batch
+
+O AWS Batch permite executar facilmente centenas de milhares de trabalhos de computação em lote de maneira fácil e eficiente na AWS.
+
+Você simplesmente empacota o código para seus trabalhos em lote, **especifica suas dependências** e envia seu trabalho em lote. O AWS Batch **provisiona dinamicamente** a quantidade e o tipo ideais de recursos de computação(**tipos de instâncias**) com base no volume e nos requisitos específicos de recursos dos trabalhos em lote enviados.
+
+> ***Diferenças entre Lightsail e Beanstalk:***
+> 
+
+- **Lightsail**: Mínima configuração, aplicações web e sites simples, lançamento rápido.
+- **Elastic Beanstalk**: Mais configuração, escalabilidade e dimensionamento automático na implementação de aplicações e serviços web.
