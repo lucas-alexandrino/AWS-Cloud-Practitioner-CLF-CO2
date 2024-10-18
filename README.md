@@ -713,3 +713,25 @@ O Registro de Contêiner Elástico (ECR) é um serviço gerenciado da AWS Docker
 O Amazon Elastic Container Service for Kubernetes (EKS) é um **serviço gerenciado de Kubernetes** que facilita a execução do Kubernetes na AWS sem a necessidade de instalar, operar e manter seu próprio **plano de controle do Kubernetes.**
 
 ![docker_kubernetes](images/docker_kubernetes.jpg)
+
+## 3.8 Integrações Cloud
+
+### **Amazon SQS (Simple Queue Service)**
+
+- **Mensageria Assíncrona:** Permite que diferentes componentes do sistema se comuniquem de forma assíncrona usando filas de mensagens.
+- **Escalabilidade e Resiliência:** Suporta alta taxa de transferência, escalabilidade e resiliência a falhas.
+
+### **Amazon SNS (Simple Notification Service)**
+
+- **Notificação em Tempo Real:** Oferece um serviço de mensagens **publicador-assinante** que permite o envio de notificações em tempo real a vários destinatários.
+- **Suporte a Diversos Protocolos:** Suporta HTTP/HTTPS, e-mail, SMS e integração com outros serviços AWS.
+
+### **Amazon EventBridge**
+
+- **Roteamento de Eventos:** Um barramento de eventos que permite a construção de aplicações orientadas a eventos, roteando eventos de diferentes fontes para destinos AWS.
+- **Automação e Conectividade:** Facilita a automação de fluxos de trabalho e a conectividade entre serviços e aplicações.
+
+<p float="left">
+  <img src="images/sns_sqs.jpg" width="400" />
+  <img src="images/sqssns_eventbridge.jpg" width="400" /> 
+</p>
