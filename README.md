@@ -750,3 +750,9 @@ Você simplesmente empacota o código para seus trabalhos em lote, **especifica 
 
 - **Lightsail**: Mínima configuração, aplicações web e sites simples, lançamento rápido.
 - **Elastic Beanstalk**: Mais configuração, escalabilidade e dimensionamento automático na implementação de aplicações e serviços web.
+
+## 4.2 Cobrança e custos
+
+O **AWS Control Tower** fornece um local único para configurar um ambiente de várias contas bem projetado. Um processo que simplifica a criação e configuração de multiplas contas (**Organizations**) em grandes ambientes.
+
+O **AWS Resource Acess Manager (RAM)** ajuda você a compartilhar seus recursos com **segurança** entre contas da AWS, dentro de sua organização ou unidades organizacionais (UOs) e com perfis e usuários do IAM para tipos de recursos compatíveis.
