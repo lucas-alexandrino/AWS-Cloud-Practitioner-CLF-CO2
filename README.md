@@ -756,3 +756,22 @@ Você simplesmente empacota o código para seus trabalhos em lote, **especifica 
 O **AWS Control Tower** fornece um local único para configurar um ambiente de várias contas bem projetado. Um processo que simplifica a criação e configuração de multiplas contas (**Organizations**) em grandes ambientes.
 
 O **AWS Resource Acess Manager (RAM)** ajuda você a compartilhar seus recursos com **segurança** entre contas da AWS, dentro de sua organização ou unidades organizacionais (UOs) e com perfis e usuários do IAM para tipos de recursos compatíveis.
+
+### AWS Resource Groups e Tag Editor
+
+- As tags são pares de chave/valor que podem ser anexados aos recursos da AWS.
+- Contêm metadados (dados sobre dados).
+- Às vezes, as tags podem ser herdadas, por exemplo, recursos criados pelo Auto Scaling, CloudFormation ou Elastic Beanstalk.
+- Os grupos de recursos facilitam a agrupação de recursos usando as tags atribuídas a eles. É possível agrupar recursos que compartilham uma ou mais tags.
+- *Os grupos de recursos contêm informações gerais, como:*
+    - Região.
+    - Nome.
+    - Verificações de saúde.
+- *E informações específicas, como:*
+    - Endereços IP públicos e privados (para EC2).
+    - Configurações de porta (para ELB).
+    - Motor do banco de dados (para RDS).
+
+### AWS Service Catalog
+
+O **AWS Service Catalog** é um serviço de gerenciamento de serviços que permite administradores de TI manter um controle firme sobre os serviços da AWS utilizados dentro de suas organizações. Especificando quais serviços os usuários podem lançar e implementar em conformidade com as politicas corporativas, auxiliando assim o controle de custos.
