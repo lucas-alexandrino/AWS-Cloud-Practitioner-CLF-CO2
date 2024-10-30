@@ -838,3 +838,15 @@ Os recursos do AWS CAF fornecem orientações de práticas recomendadas que ajud
 ![caf1](images/caf1.jpg)
 
 ![caf2](images/caf2.jpg)
+
+## AWS EcoSystem
+
+Juntamente com o AWS IQ(Serviço especialistas terceirizados certificados pela AWS, Freelance)
+
+## AWS Systems Manager
+
+O AWS Systems Manager permite **centralizar** dados operacionais de vários Serviços da AWS e **automatizar** tarefas em todos os recursos da AWS.
+
+### AWS AppConfig
+
+   O AWS AppConfig é um **recurso** do Systems Manager, que auxilia na **pré-implantação de alterações de configurações em aplicações**, fornecendo um mecanismo para práticas de implantação, podendo evitar erros em alterações de configuração, implantar alterações em varias destinos e controlar a implantação de alterações em seus aplicativos.
