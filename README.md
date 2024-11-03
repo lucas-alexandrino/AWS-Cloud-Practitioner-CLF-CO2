@@ -850,3 +850,19 @@ O AWS Systems Manager permite **centralizar** dados operacionais de vários Serv
 ### AWS AppConfig
 
    O AWS AppConfig é um **recurso** do Systems Manager, que auxilia na **pré-implantação de alterações de configurações em aplicações**, fornecendo um mecanismo para práticas de implantação, podendo evitar erros em alterações de configuração, implantar alterações em varias destinos e controlar a implantação de alterações em seus aplicativos.
+
+## 2.2 Serviços de Segurança
+
+### AWS Artifact
+
+AWS Artifact fornece downloads sob demanda de documentos de segurança e conformidade, como certificações ISO, leis, normas, frameworks. Você pode enviar os documentos de segurança e conformidade (***artefatos de auditoria***) para seus auditores ou reguladores a fim de demonstrar a segurança e a conformidade da infraestrutura da AWS e dos serviços usados por você.
+Você também pode usar esses documentos como diretrizes para avaliar sua própria arquitetura de nuvem e a eficácia dos controles internos da empresa.
+
+### AWS GuardDuty
+
+O Amazon GuardDuty combina ML e inteligência de ameaças integrada da AWS para oferecer um **serviço de detecção de ameaças que monitora**, analisa e processa fontes de dados da AWS e registros em seu ambiente. Como por exemplo:
+
+- **Eventos do AWS CloudTrail:** GuardDuty analisa eventos do AWS CloudTrail para detecção de ameaças.
+- **Proteção contra Malware no Amazon Elastic Block Store (EBS):** Lançou a proteção contra malware no Amazon EBS para escanear arquivos maliciosos em instâncias EC2 ou cargas de trabalho de contêineres usando volumes EBS.
+
+S3 Buckets, VPC, Route 53 etc.
