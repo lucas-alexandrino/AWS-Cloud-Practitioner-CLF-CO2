@@ -866,3 +866,13 @@ O Amazon GuardDuty combina ML e inteligência de ameaças integrada da AWS para 
 - **Proteção contra Malware no Amazon Elastic Block Store (EBS):** Lançou a proteção contra malware no Amazon EBS para escanear arquivos maliciosos em instâncias EC2 ou cargas de trabalho de contêineres usando volumes EBS.
 
 S3 Buckets, VPC, Route 53 etc.
+
+### AWS Shield
+
+O **AWS Shield** é um serviço gerenciado de proteção contra negação de serviço distribuído (DDoS). Salvaguarda aplicativos da web em execução na AWS com detecção sempre ativa e mitigação automática em linha.
+
+Ajuda a minimizar a indisponibilidade e latência do aplicativo.
+
+### AWS CloudHSM
+
+O **AWS CloudHSM** é um módulo de segurança de **hardware** (HSM) baseado em nuvem que permite gerar e usar facilmente suas próprias chaves de **criptografia** na Nuvem AWS.
