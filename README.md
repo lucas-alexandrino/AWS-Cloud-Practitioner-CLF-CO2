@@ -876,3 +876,11 @@ Ajuda a minimizar a indisponibilidade e latência do aplicativo.
 ### AWS CloudHSM
 
 O **AWS CloudHSM** é um módulo de segurança de **hardware** (HSM) baseado em nuvem que permite gerar e usar facilmente suas próprias chaves de **criptografia** na Nuvem AWS.
+
+### AWS Inspector
+
+O Amazon Inspector é um **serviço automatizado de gerenciamento de vulnerabilidade** que verifica continuamente as workloads da AWS em busca de vulnerabilidades de software e exposição não intencional à rede.
+
+### AWS Secrets Manager
+
+O Secrets Manager ajuda você a **gerenciar o acesso a aplicações, serviços e recursos de TI**,  permitindo alternar, gerenciar e recuperar facilmente credenciais de banco de dados, chaves de APIs. Usando as policies do IAM para gerenciar o acesso aos seus segredos.
