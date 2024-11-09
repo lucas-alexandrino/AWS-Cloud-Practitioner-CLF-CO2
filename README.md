@@ -884,3 +884,15 @@ O Amazon Inspector é um **serviço automatizado de gerenciamento de vulnerabili
 ### AWS Secrets Manager
 
 O Secrets Manager ajuda você a **gerenciar o acesso a aplicações, serviços e recursos de TI**,  permitindo alternar, gerenciar e recuperar facilmente credenciais de banco de dados, chaves de APIs. Usando as policies do IAM para gerenciar o acesso aos seus segredos.
+
+### AWS Security Hub
+
+O AWS Security Hub é um serviço de **gerenciamento do procedimento de segurança na nuvem** (CSPM) que executa verificações de práticas recomendadas de segurança, agrega alertas e possibilita a automação de verificações e correções.
+
+### AWS Detective
+
+O Amazon Detective simplifica o processo de investigação e ajuda as equipes de segurança a conduzir investigações mais rápidas e eficazes. Com as agregações de serviços de segurança, resumos e contexto de dados pré-construídos do Amazon Detective, você pode analisar e determinar rapidamente a natureza e a extensão de possíveis problemas de segurança.
+
+### AWS Macie
+
+O Amazon Macie é um serviço de segurança de dados que descobre dados confidenciais usando machine learning e correspondência de padrões, fornece visibilidade dos riscos de segurança dos dados e possibilita proteção automatizada contra esses riscos.
