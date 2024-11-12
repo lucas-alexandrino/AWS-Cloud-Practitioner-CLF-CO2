@@ -896,3 +896,9 @@ O Amazon Detective simplifica o processo de investigação e ajuda as equipes de
 ### AWS Macie
 
 O Amazon Macie é um serviço de segurança de dados que descobre dados confidenciais usando machine learning e correspondência de padrões, fornece visibilidade dos riscos de segurança dos dados e possibilita proteção automatizada contra esses riscos.
+
+## Ferramentas do Desenvolvedor
+
+**AWS Cloud9** IDE hospedada na AWS com o CLI e acesso direto a serviços na nuvem.
+**AWS CLI**(**Command Line Interface**) ferramenta unificada para o gerenciamento e automação via scripts no terminal.
+**AWS CloudShell** é um shell disponível diretamente no Console AWS que fornece um ambiente pré-autenticado e pré-configurado para executar a interação com recursos da AWS.
