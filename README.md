@@ -1,15 +1,15 @@
-<!--- 
+<!---
 <style>
 r { color: Red }
 o { color: Orange }
 g { color: Green }
 </style>
 -->
-<!--- 
+<!---
 
 <p float="left">
   <img src="images/hierarquia.png" width="400" />
-  <img src="images/piramidemodelos.png" width="400" /> 
+  <img src="images/piramidemodelos.png" width="400" />
 </p>
 
 🔴 red: +5V
@@ -33,7 +33,7 @@ O exame tem os seguintes domínios do conteúdo e ponderações:
 - Domínio 3: Tecnologia e serviços da nuvem (34% do contéudo pontuado)
 - Domínio 4: Cobrança, preços e suporte (12% do conteúdo pontuado)
 
-O conteúdo está ***numerado*** de acordo com os domínios da certificação AWS Practitioner, porém ***ordenado*** da melhor maneira para o entendimento.
+O conteúdo está **_numerado_** de acordo com os domínios da certificação AWS Practitioner, porém **_ordenado_** da melhor maneira para o entendimento.
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias ou correções.
 
@@ -45,55 +45,49 @@ Essa abordagem oferece uma maneira simples de acessar servidores, armazenamento,
 
 A AWS possui e mantém o hardware conectado à infraestrutura necessária para executar esses serviços, enquanto você provisiona e utiliza o que precisa por meio de uma aplicação web.
 
-##  1.Vantagens da Nuvem AWS
+## 1.Vantagens da Nuvem AWS
 
 1. **Custo Reduzido:**
-    1. **Troque despesas de capital por despesas variáveis:**
-        - Pague apenas pelos recursos de computação que consome, eliminando a necessidade de investir antecipadamente em data centers e servidores.
+
+   1. **Troque despesas de capital por despesas variáveis:**
+      - Pague apenas pelos recursos de computação que consome, eliminando a necessidade de investir antecipadamente em data centers e servidores.
 
 1. **Escala Global:**
-    1. **Torne-se global em minutos:**
-        - Implante aplicativos em várias regiões do mundo com facilidade, proporcionando uma melhor experiência para os clientes
-        
-2. **Performance:**
-    1. **Pare de adivinhar a capacidade:**
-        - Elimine a adivinhação sobre suas necessidades de capacidade, obtendo acesso flexível e escalável conforme necessário.
-        
-3. **Velocidade e Agilidade:**
-    1. **Aumente a velocidade e a agilidade:**
-        - Desenvolva e disponibilize recursos de TI em minutos, proporcionando maior agilidade organizacional.
-        
-4. **Produtividade:**
-    1. **Pare de gastar dinheiro executando e mantendo data centers:**
-        - Concentre-se em projetos diferenciais, deixando a infraestrutura para provedores de nuvem como a AWS.
-        
-5. **Segurança:**
-    1. **Seguro:**
-        - A AWS utiliza uma abordagem de ponta a ponta para proteger e fortalecer nossa infraestrutura, incluindo medidas físicas, operacionais e de software. Para obter informações, consulte o Centro de Segurança da AWS.
-        
-6. **Flexibilidade:**
-    1. **Flexível:**
-        - A AWS permite que você selecione o sistema operacional, a linguagem de programação, a plataforma de aplicativos da web, o banco de dados e outros serviços necessários. Com a AWS, você recebe um ambiente virtual que lhe permite carregar o software e os serviços que o seu aplicativo necessita. Isso facilita o processo de migração para aplicativos existentes enquanto preserva opções para criar novas soluções.
+   1. **Torne-se global em minutos:**
+      - Implante aplicativos em várias regiões do mundo com facilidade, proporcionando uma melhor experiência para os clientes
+1. **Performance:**
+   1. **Pare de adivinhar a capacidade:**
+      - Elimine a adivinhação sobre suas necessidades de capacidade, obtendo acesso flexível e escalável conforme necessário.
+1. **Velocidade e Agilidade:**
+   1. **Aumente a velocidade e a agilidade:**
+      - Desenvolva e disponibilize recursos de TI em minutos, proporcionando maior agilidade organizacional.
+1. **Produtividade:**
+   1. **Pare de gastar dinheiro executando e mantendo data centers:**
+      - Concentre-se em projetos diferenciais, deixando a infraestrutura para provedores de nuvem como a AWS.
+1. **Segurança:**
+   1. **Seguro:**
+      - A AWS utiliza uma abordagem de ponta a ponta para proteger e fortalecer nossa infraestrutura, incluindo medidas físicas, operacionais e de software. Para obter informações, consulte o Centro de Segurança da AWS.
+1. **Flexibilidade:**
+   1. **Flexível:**
+      - A AWS permite que você selecione o sistema operacional, a linguagem de programação, a plataforma de aplicativos da web, o banco de dados e outros serviços necessários. Com a AWS, você recebe um ambiente virtual que lhe permite carregar o software e os serviços que o seu aplicativo necessita. Isso facilita o processo de migração para aplicativos existentes enquanto preserva opções para criar novas soluções.
 
-> *Benefícios*:
+> _Benefícios_:
 
 https://aws.amazon.com/pt/application-hosting/benefits/
 
-
 ## Modelos de Computação em Nuvem
-
 
 ![modelosComputacao](images/modelos.jpg)
 
 1. **Infraestrutura como Serviço (IaaS):**
-    - Contém os componentes básicos da TI em nuvem e, geralmente, dá acesso (virtual ou no hardware dedicado) a recursos de rede e computadores, como também espaço para o armazenamento de dados.
-    - Um exemplo comum de IaaS na AWS é o Amazon EC2, do qual você tem acesso virtual a recursos de computação na nuvem.
+   - Contém os componentes básicos da TI em nuvem e, geralmente, dá acesso (virtual ou no hardware dedicado) a recursos de rede e computadores, como também espaço para o armazenamento de dados.
+   - Um exemplo comum de IaaS na AWS é o Amazon EC2, do qual você tem acesso virtual a recursos de computação na nuvem.
 2. **Plataforma como Serviço (PaaS):**
-    - Elimina a necessidade de gerenciar a infraestrutura subjacente, permitindo que você se concentre no desenvolvimento e gerenciamento de aplicativos.
-    - Um exemplo comum de PaaS na AWS é o Amazon RDS, do qual você não tem a necessidade de gerenciar a infraestrutura subjacente para iniciar um banco de dados relacional.
+   - Elimina a necessidade de gerenciar a infraestrutura subjacente, permitindo que você se concentre no desenvolvimento e gerenciamento de aplicativos.
+   - Um exemplo comum de PaaS na AWS é o Amazon RDS, do qual você não tem a necessidade de gerenciar a infraestrutura subjacente para iniciar um banco de dados relacional.
 3. **Software como Serviço (SaaS):**
-    - Não é necessário saber em como o serviço é mantido ou como a infraestrutura subjacente é gerenciada, você só precisa pensar em como usará este tipo específico de software.
-    - Um exemplo comum de aplicação do SaaS é o webmail, no qual você pode enviar e receber e-mails sem precisar gerenciar recursos adicionais para o produto de e-mail ou manter os servidores e sistemas operacionais no qual o programa de e-mail está sendo executado.
+   - Não é necessário saber em como o serviço é mantido ou como a infraestrutura subjacente é gerenciada, você só precisa pensar em como usará este tipo específico de software.
+   - Um exemplo comum de aplicação do SaaS é o webmail, no qual você pode enviar e receber e-mails sem precisar gerenciar recursos adicionais para o produto de e-mail ou manter os servidores e sistemas operacionais no qual o programa de e-mail está sendo executado.
 
 Exemplo: Zendesk(AWS MarketPlace), Google Sheets, etc.
 
@@ -102,18 +96,16 @@ Exemplo: Zendesk(AWS MarketPlace), Google Sheets, etc.
   <img src="images/piramidemodelos.png" width="400" /> 
 </p>
 
-
 ## 3.Tipos de implantação na Nuvem
 
 Existem três tipos comuns de implantação em nuvem:
 
 1. **Nuvem Pública:**
-    - Totalmente implantada na nuvem, com todas as partes da aplicação em execução na nuvem.
+   - Totalmente implantada na nuvem, com todas as partes da aplicação em execução na nuvem.
 2. **Nuvem Híbrida:**
-    - Conecta recursos em nuvem AWS, a recursos existentes fora da nuvem (ambiente on-premises), proporcionando uma integração híbrida entre esses ambientes.
+   - Conecta recursos em nuvem AWS, a recursos existentes fora da nuvem (ambiente on-premises), proporcionando uma integração híbrida entre esses ambientes.
 3. **Nuvem Privada (on-premises):**
-    - Nuvem gerenciada internamente, usando virtualização e ferramentas de gerenciamento de recursos. Ela pode estar tanto on-premises, quanto em um hardware dedicado em uma provedora de nuvem.
-
+   - Nuvem gerenciada internamente, usando virtualização e ferramentas de gerenciamento de recursos. Ela pode estar tanto on-premises, quanto em um hardware dedicado em uma provedora de nuvem.
 
 ## Planos do AWS Support
 
@@ -157,17 +149,17 @@ Uma função pode ser atribuída no momento da criação da instância EC2 ou a 
 Crie uma função do IAM com duas políticas:
 
 - Política de permissões – concede ao usuário da função as permissões necessárias em um recurso.
-- Política de confiança – especifica as contas confiáveis que têm permissão para assumir a função. Wildcards(todos, no caso usa-se o asterisco (*)) não podem ser especificados como principal. Uma política de permissões também deve ser anexada ao usuário na conta confiável
+- Política de confiança – especifica as contas confiáveis que têm permissão para assumir a função. Wildcards(todos, no caso usa-se o asterisco (\*)) não podem ser especificados como principal. Uma política de permissões também deve ser anexada ao usuário na conta confiável
 
 ## 2.3 IAM Identity Center
 
 O **IAM Identity Center** foi desenvolvido com base no AWS **Identity** and Access Management (**IAM**) para simplificar o gerenciamento de **acesso a várias contas da AWS**, **aplicações da AWS** e outras **aplicações de nuvem habilitadas para SAML.**
 
-***IAM:*** Habilita usuários e grupos, para os recursos e serviços da conta que foram criados, **preferencialmente utilizado** de modo programático em uma única conta
-***IAM Identity Center:*** Habilita novos usuários e grupos, para terem **acesso a várias contas** AWS, **aplicações da AWS** por exemplo um PaaS ou SaaS, **preferencialmente utilizado** a usuários que precisam de acesso ao **portal**
-
+**_IAM:_** Habilita usuários e grupos, para os recursos e serviços da conta que foram criados, **preferencialmente utilizado** de modo programático em uma única conta
+**_IAM Identity Center:_** Habilita novos usuários e grupos, para terem **acesso a várias contas** AWS, **aplicações da AWS** por exemplo um PaaS ou SaaS, **preferencialmente utilizado** a usuários que precisam de acesso ao **portal**
 
 ![portal_aws](images/Portal_acesso_aws.png)
+
 > Portal de Acesso AWS, contas e serviços
 
 ## 4. AWS Organizations
@@ -197,10 +189,10 @@ Os **Pontos de Presença(Locais de borda)** são uma infraestrutura de servido
 
 E as **Zonas Locais** são um tipo de **implantação de infraestrutura da AWS** que oferecem baixa latência em algum ponto geográfico, sendo geralmente associado em alguma cidade , permitindo aplicações com requisitos de latência inferior a 10 milissegundos aos usuários, devido ter uma **conexão de rede privada direta**, com uma AZ da AWS.
 
-> *Resumo:*
-> 
-- ***Edge Locations (Pontos de Presença):** Ideais para distribuição de conteúdo estático e dinâmico, aceleração de sites, APIs, e melhoria de desempenho global e segurança.*
-- ***Local Zones (Zonas Locais):** Melhor utilizadas para aplicativos sensíveis à latência, que precisam de recursos computacionais próximos aos usuários, ou para garantir conformidade e desempenho específicos de uma região.*
+> _Resumo:_
+
+- **\*Edge Locations (Pontos de Presença):** Ideais para distribuição de conteúdo estático e dinâmico, aceleração de sites, APIs, e melhoria de desempenho global e segurança.\*
+- **\*Local Zones (Zonas Locais):** Melhor utilizadas para aplicativos sensíveis à latência, que precisam de recursos computacionais próximos aos usuários, ou para garantir conformidade e desempenho específicos de uma região.\*
 
 AZ’s(Availability Zone)
 
@@ -214,7 +206,6 @@ Para garantir que os recursos sejam distribuídos entre as Zonas de Disponibilid
 Por exemplo, a Zona de Disponibilidade us-east-1a para sua conta da AWS pode não ser a mesma localização que us-east-1a para outra conta da AWS.
 
 Para coordenar as zonas de disponibilidade entre contas, use o *ID da AZ* que é um identificador exclusivo e consistente para uma zona de disponibilidade.Por exemplo,`use1-az2` é uma ID AZ para a `us-east-1` região e tem a mesma localização em todas as AWS contas.
-
 
 ### CloudFront
 
@@ -243,33 +234,32 @@ Um hipervisor é um hardware, software ou firmware que cria e gerencia máquinas
 
 ### Tipos de instância do Amazon EC2
 
-**Nomenclatura para classificação de instâncias** 
+**Nomenclatura para classificação de instâncias**
 
 - **Instâncias de Uso Geral (A, T, M)**
 - **Instâncias Otimizadas para Computação (C)**
 - **Instâncias Otimizadas para Memória (R, X, U, Z)**
 - **Instâncias Otimizadas para Armazenamento (D, I, H)**
-    - Começam com I(IOPS) e D
+  - Começam com I(IOPS) e D
 
 ### Modelos de preço EC2
 
 - **On Demand**
-    - As instâncias sob demanda permitem que você pague pela capacidade computacional **por hora ou segundo**, sem nenhum compromisso de longo prazo.
+  - As instâncias sob demanda permitem que você pague pela capacidade computacional **por hora ou segundo**, sem nenhum compromisso de longo prazo.
 - **Reserva de capacidade sob demanda**
-    - Permitem que você reserve capacidade de computação para suas instâncias do EC2 em uma zona de disponibilidade específica por **qualquer duração**. As reservas de capacidade reduzem o risco de não conseguir obter capacidade sob demanda em caso de restrições de capacidade e garantem que você sempre tenha acesso à capacidade do EC2 quando precisar.
+  - Permitem que você reserve capacidade de computação para suas instâncias do EC2 em uma zona de disponibilidade específica por **qualquer duração**. As reservas de capacidade reduzem o risco de não conseguir obter capacidade sob demanda em caso de restrições de capacidade e garantem que você sempre tenha acesso à capacidade do EC2 quando precisar.
 - **Spot**
-    - Instâncias EC2 menos estáveis, ofertadas com base na **oferta e demanda**, quando sua solicitação Spot for atendida, suas Instâncias Spot serão lançadas no preço Spot atual, não excedendo o preço On Demand.
+  - Instâncias EC2 menos estáveis, ofertadas com base na **oferta e demanda**, quando sua solicitação Spot for atendida, suas Instâncias Spot serão lançadas no preço Spot atual, não excedendo o preço On Demand.
 - **Dedicated**
-    - Hardware físico dedicado especificamente para sua aplicação, utilizado por empresas que por questões de conformidade e regulação, necessitem de ter um hardware único e não compartilhado, para armazenamento de dados (Financeiro/Governos)
+  - Hardware físico dedicado especificamente para sua aplicação, utilizado por empresas que por questões de conformidade e regulação, necessitem de ter um hardware único e não compartilhado, para armazenamento de dados (Financeiro/Governos)
 - **Saving Plans**
-    - Menor custo que On Demand, pelo compromisso com uma quantidade consistente de uso (medida em $/hora) por um período de 1 ou 3 anos. Existem 3 tipos de Saving Plans
-        - **Compute Savings Plans**
-            - Os Compute Savings Plans fornecem a **maior flexibilidade**. Esses planos se aplicam automaticamente ao uso da instância do EC2, **independentemente de família de instâncias**, tamanho, AZ, região, sistema operacional ou locação da instância, e também se aplicam ao uso do **Fargate ou Lambda**.
-        - **EC2 Instance Savings Plans**
-            - Os EC2 Instance Savings Plans fornecem os preços mais baixos em troca do comprometimento com o uso de **famílias de instâncias** individuais em uma região (por exemplo, usar M5 no Norte da Virginia). Isso reduz automaticamente seu custo na **família de instâncias selecionadas nessa região**, qualquer que seja a AZ, o tamanho, o sistema operacional ou a locação.
-        - **Amazon SageMaker Savings Plans**
-            - O mesmo do Compute Savings Plans, porém para uso de instâncias tipos ML(Machine Learning)
-
+  - Menor custo que On Demand, pelo compromisso com uma quantidade consistente de uso (medida em $/hora) por um período de 1 ou 3 anos. Existem 3 tipos de Saving Plans
+    - **Compute Savings Plans**
+      - Os Compute Savings Plans fornecem a **maior flexibilidade**. Esses planos se aplicam automaticamente ao uso da instância do EC2, **independentemente de família de instâncias**, tamanho, AZ, região, sistema operacional ou locação da instância, e também se aplicam ao uso do **Fargate ou Lambda**.
+    - **EC2 Instance Savings Plans**
+      - Os EC2 Instance Savings Plans fornecem os preços mais baixos em troca do comprometimento com o uso de **famílias de instâncias** individuais em uma região (por exemplo, usar M5 no Norte da Virginia). Isso reduz automaticamente seu custo na **família de instâncias selecionadas nessa região**, qualquer que seja a AZ, o tamanho, o sistema operacional ou a locação.
+    - **Amazon SageMaker Savings Plans**
+      - O mesmo do Compute Savings Plans, porém para uso de instâncias tipos ML(Machine Learning)
 
 ## 2.4 Security Groups e ACLs(Firewalls)
 
@@ -279,14 +269,13 @@ Os **Security Groups** fornecem uma camada de firewall/segurança no nível de
 
 A tabela abaixo descreve algumas diferenças entre **Security Groups** e **Network ACLs**:
 
-| **GRUPOS DE SEGURANÇA** | **LISTA DE CONTROLE DE ACESSO À REDE (NACLs)** |
-| ---                     | ---                                            |
-| Aplica-se a **uma** **instância** apenas se associada a um grupo | Aplica-se automaticamente a **todas as instâncias**                                                       |nas sub-redes com as quais está associada 
-| Opera no nível de **instância** (interface)                      | Opera no nível de sub-rede 
-| Avalia todas as regras                                           | Processa as regras na ordem 
-| **Stateful** (se foi permitido entrar, é permitido sair)         | **Stateless** (precisa de uma regra de entrada/saida)
-| Suporta apenas **regras de permissão**                           | Suporta **regras de permissão e negação** 
-
+| **GRUPOS DE SEGURANÇA**                                          | **LISTA DE CONTROLE DE ACESSO À REDE (NACLs)**        |
+| ---------------------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------- |
+| Aplica-se a **uma** **instância** apenas se associada a um grupo | Aplica-se automaticamente a **todas as instâncias**   | nas sub-redes com as quais está associada |
+| Opera no nível de **instância** (interface)                      | Opera no nível de sub-rede                            |
+| Avalia todas as regras                                           | Processa as regras na ordem                           |
+| **Stateful** (se foi permitido entrar, é permitido sair)         | **Stateless** (precisa de uma regra de entrada/saida) |
+| Suporta apenas **regras de permissão**                           | Suporta **regras de permissão e negação**             |
 
 ![states.png](images/stateless_full.png)
 
@@ -341,8 +330,7 @@ Aqui estão alguns pontos chave sobre o Amazon FSx:
 Em resumo, o Amazon FSx é um serviço poderoso e flexível que torna mais fácil do que nunca para você executar sistemas de arquivos totalmente gerenciados na AWS. Ele suporta sistemas de arquivos Windows e Lustre, oferecendo um alto nível de desempenho, segurança e integração com outros serviços AWS.
 
 - **IMPORTANTE!**
-    
-    EFS é para Linux, FSx para Windows
+  EFS é para Linux, FSx para Windows
 
 ## Amazon S3
 
@@ -370,15 +358,13 @@ O Amazon S3 é um armazenamento de objetos projetado para armazenar e recuperar 
 7. S3 Glacier Deep Archive (classe de armazenamento de menor custo para retenção de longo prazo).
 8. S3 Outpost (armazenamento de objetos para seu ambiente de AWS Outposts on-premises).
 
-         
-
 A tabela a seguir fornece uma descrição de armazenamentos de dados persistentes, transitórios e efêmeros e qual serviço da AWS usar:
 
-| **TIPO DE ARMAZENAMENTO** | **DESCRIÇÃO** | **EXEMPLOS** |
-| --- | --- | --- |
-| Persistente | Dados são duráveis e permanecem após reinicializações, reinícios ou ciclos de energia. | S3, Glacier, EBS, EFS |
-| Transitório | Dados são apenas armazenados temporariamente e passados para outro processo ou armazenamento persistente. | SQS, SNS |
-| Efêmero | Dados são perdidos quando o sistema é desligado. | Armazenamento de Instância EC2, Memcached |
+| **TIPO DE ARMAZENAMENTO** | **DESCRIÇÃO**                                                                                             | **EXEMPLOS**                              |
+| ------------------------- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| Persistente               | Dados são duráveis e permanecem após reinicializações, reinícios ou ciclos de energia.                    | S3, Glacier, EBS, EFS                     |
+| Transitório               | Dados são apenas armazenados temporariamente e passados para outro processo ou armazenamento persistente. | SQS, SNS                                  |
+| Efêmero                   | Dados são perdidos quando o sistema é desligado.                                                          | Armazenamento de Instância EC2, Memcached |
 
 ## AWS Storage Gateway
 
@@ -389,34 +375,29 @@ A tabela a seguir fornece uma descrição de armazenamentos de dados persistente
 Diferença entre Escalabilidade, elasticidade e disponibilidade
 
 - **Escalabilidade**
-    - Horizontal
-        - Scale out: inicia novas instâncias
-        - Scale in: termina novas instâncias
-    - Vertical
-        - Scale up: melhorar as instâncias
+
+  - Horizontal
+    - Scale out: inicia novas instâncias
+    - Scale in: termina novas instâncias
+  - Vertical
+    - Scale up: melhorar as instâncias
 
 - **Elasticidade**
-    
-    Capacidade de **dimensionamento**(dimensionar) automaticamente as mudanças conforme a demanda.
-    Como se fosse literalmente um elástico.
-    
-    - Horizontal
-        - Capacidade de diminuir(scale-in) ou aumentar (scale-out) automaticamente de acordo com a necessidade
-    - Vertical
-        - Capacidade de melhorar(scale-up) ou diminuir (scale-down) os recursos de uma instância
+  Capacidade de **dimensionamento**(dimensionar) automaticamente as mudanças conforme a demanda.
+  Como se fosse literalmente um elástico.
+  - Horizontal
+    - Capacidade de diminuir(scale-in) ou aumentar (scale-out) automaticamente de acordo com a necessidade
+  - Vertical
+    - Capacidade de melhorar(scale-up) ou diminuir (scale-down) os recursos de uma instância
 - **Disponibilidade**
-    
-    Capacidade de espalhar os recursos ou servidores(instâncias) em varias zonas de disponibilidade(AZs)
-    
-    ![Elastic ASG.jpg](images/Elastic%20ASG.jpg)
-    
+  Capacidade de espalhar os recursos ou servidores(instâncias) em varias zonas de disponibilidade(AZs)
+  ![Elastic ASG.jpg](images/Elastic%20ASG.jpg)
 
 ### **Amazon EC2 Auto Scaling**
 
 O **Amazon EC2 Auto Scaling** automatiza o processo de lançamento (escalonamento para fora) e término (escalonamento para dentro) de instâncias Amazon EC2 com base na demanda de tráfego para sua aplicação.
 
-> *O Amazon EC2 Auto Scaling fornece elasticidade e escalabilidade.*
-> 
+> _O Amazon EC2 Auto Scaling fornece elasticidade e escalabilidade._
 
 Você cria **coleções** de instâncias EC2, chamadas de grupo Auto Scaling (ASG).
 
@@ -449,8 +430,7 @@ O ELB pode lidar com a carga variável do tráfego da sua aplicação em **vári
 
 Ele também possui alta disponibilidade, dimensionamento automático e segurança robusta necessária para tornar suas aplicações tolerantes a falhas.
 
-> *Existem três tipos de Balanceador de Carga Elástico (ELB) na AWS:*
-> 
+> _Existem três tipos de Balanceador de Carga Elástico (ELB) na AWS:_
 
 ![types elb.jpeg](images/types%20elb.jpeg)
 
@@ -464,11 +444,9 @@ TIPOS DE BANCO DE DADOS!
 
 O Amazon Relational Database Service (Amazon RDS) é um **serviço gerenciado** que facilita a configuração, operação e escalabilidade de um banco de dados relacional na nuvem.
 
-> *RDS é um tipo de banco de dados Online Transaction Processing (OLTP).*
-> 
+> _RDS é um tipo de banco de dados Online Transaction Processing (OLTP)._
 
 > O Amazon RDS é um serviço totalmente gerenciado e você não tem acesso à instância EC2 subjacente (sem acesso ao root).
-> 
 
 **Mecanismos de Banco de Dados Suportados no Amazon RDS**
 
@@ -509,12 +487,12 @@ ElastiCache é um serviço web que facilita a implantação e execução de nós
 - Os nós EC2 ElastiCache não podem ser acessados pela Internet, nem podem ser acessados por instâncias EC2 em outras VPCs.
 - Pode ser em instâncias sob demanda ou reservadas (mas não em instâncias Spot).
 
-| **CASOS DE USO** | **BENEFÍCIOS** |
-| --- | --- |
-| Armazenamento de Sessão Web | Em casos com servidores web equilibrados, armazene informações de sessão na **Redis**, para que, **se um servidor for perdido**, as **informações da sessão** não sejam perdidas e **outro servidor web possa recuperá-las**. |
-| Cache de Banco de Dados | Use o Memcached na frente do AWS RDS para armazenar consultas populares para aliviar o trabalho do RDS e retornar resultados mais rapidamente aos usuários. |
-| Quadros de Classificação | Use o Redis para fornecer um quadro de classificação ao vivo para milhões de usuários do seu aplicativo móvel. |
-| Dashboards de Dados em Tempo Real | Forneça um local para dados de sensores em tempo real no chão de fábrica, fornecendo displays de painel ao vivo em tempo real. |
+| **CASOS DE USO**                  | **BENEFÍCIOS**                                                                                                                                                                                                                |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Armazenamento de Sessão Web       | Em casos com servidores web equilibrados, armazene informações de sessão na **Redis**, para que, **se um servidor for perdido**, as **informações da sessão** não sejam perdidas e **outro servidor web possa recuperá-las**. |
+| Cache de Banco de Dados           | Use o Memcached na frente do AWS RDS para armazenar consultas populares para aliviar o trabalho do RDS e retornar resultados mais rapidamente aos usuários.                                                                   |
+| Quadros de Classificação          | Use o Redis para fornecer um quadro de classificação ao vivo para milhões de usuários do seu aplicativo móvel.                                                                                                                |
+| Dashboards de Dados em Tempo Real | Forneça um local para dados de sensores em tempo real no chão de fábrica, fornecendo displays de painel ao vivo em tempo real.                                                                                                |
 
 **Existem dois tipos de mecanismos do ElastiCache:**
 
@@ -538,7 +516,6 @@ Amazon DynamoDB é um serviço de banco de dados NoSQL totalmente gerenciado que
 - **Leituras eventualmente consistentes (padrão)**:A opção de consistência eventual maximiza seu throughput de leitura (melhor desempenho de leitura).Uma leitura eventualmente consistente **pode não refletir os resultados de uma gravação concluída recentemente**. Consistência em todas as cópias alcançada dentro de 1 segundo.
 - **Leituras fortemente consistentes:** Uma leitura fortemente consistente retorna um resultado **que reflete todas as gravações** que receberam uma resposta bem-sucedida antes da leitura (consistência mais rápida).
 
-
 ## Data Analytics Reference/Processo
 
 ![data_analytics](images/data_analytics.png)
@@ -558,8 +535,7 @@ SageMaker: Modelos de ML
 
 Um *Amazon Virtual Private Cloud (VPC)* é uma rede virtual dedicada à sua conta AWS. Ele é logicamente isolado de outras redes virtuais na AWS Cloud.
 
-> *Use como analogia, ter seu próprio data center dentro da AWS.*
-> 
+> _Use como analogia, ter seu próprio data center dentro da AWS._
 
 O seguinte diagrama mostra uma VPC, que possui uma sub-rede em cada zona de disponibilidade na região, instâncias do EC2 em cada sub-rede e um gateway da Internet para permitir a comunicação **entre os recursos em sua VPC e a Internet:**
 
@@ -599,25 +575,24 @@ As **instâncias na VPC padrão** sempre têm tanto um endereço IP **público**
 
 ### VPC Endpoint
 
-Existem três tipos de endpoints da VPC: 
+Existem três tipos de endpoints da VPC:
 
-- ***endpoints de interface***
-- ***endpoints de gateway***
+- **_endpoints de interface_**
+- **_endpoints de gateway_**
 - **endpoints de balanceador de carga de gateway**
 
-Os endpoints de interface e endpoints de balanceador de carga de gateway são desenvolvidos pelo **AWS PrivateLink** e usam uma interface de rede elástica (**ENI**) como ponto de entrada para o tráfego destinado ao serviço. 
+Os endpoints de interface e endpoints de balanceador de carga de gateway são desenvolvidos pelo **AWS PrivateLink** e usam uma interface de rede elástica (**ENI**) como ponto de entrada para o tráfego destinado ao serviço.
 Os endpoints de interface normalmente são acessados usando o nome DNS público ou privado associado ao serviço, enquanto os endpoints de gateway e endpoints de balanceador de carga de gateway funcionam como **destino para uma rota na tabela de rotas** para o tráfego destinado ao serviço.
 
 ![vpc_endpoint](images/vpc_endpoint.jpg)
 
 ### AWS PrivateLink
 
-O **AWS PrivateLink** fornece conectividade privada entre **nuvens privadas virtuais (VPCs), serviços da AWS ou terceiros, Marketplace e suas redes on-premises** **sem expor seu tráfego à Internet pública**. 
+O **AWS PrivateLink** fornece conectividade privada entre **nuvens privadas virtuais (VPCs), serviços da AWS ou terceiros, Marketplace e suas redes on-premises** **sem expor seu tráfego à Internet pública**.
 
 O PrivateLink utiliza ENI (Elastic Network Interface) que funcionam como um NIC(em Inglês, cartão de rede virtual) que é uma representação virtual de uma placa de rede física.
 
 > ENIs podem ser anexadas e desanexadas de instâncias EC2, e a configuração da ENI será mantida.
->
 
 ![private_link](images/PrivateLink.png)
 
@@ -637,8 +612,7 @@ Cada conexão **AWS Direct Connect** pode ser configurada com uma ou mais **in
 - As VIFs públicas permitem acesso a serviços públicos como S3, EC2 e DynamoDB.
 - As VIFs privadas permitem acesso à sua VPC.
 
-> *As tabelas de roteamento precisam ser atualizadas para apontar para uma conexão Direct Connect.*
->
+> _As tabelas de roteamento precisam ser atualizadas para apontar para uma conexão Direct Connect._
 
 ## AWS Transit Gateway
 
@@ -653,35 +627,33 @@ O AWS Transit Gateway conecta suas Amazon Virtual Private Clouds (VPCs) e redes 
 
 O Amazon Route 53 é o sistema de nome de domínio (**DNS**) da AWS, e possui três funções principais.
 
-- ***Registro de domínio***: Permite que você registre nomes de domínio),
-- ***DNS roteamento***: Traduz nomes em endereços IP usando uma rede global de servidores DNS autoritativos.
-- ***Verificação de integridade***: Envia solicitações automatizadas para sua aplicação para verificar se ela é alcançável, está disponível e funcional.
+- **_Registro de domínio_**: Permite que você registre nomes de domínio),
+- **_DNS roteamento_**: Traduz nomes em endereços IP usando uma rede global de servidores DNS autoritativos.
+- **_Verificação de integridade_**: Envia solicitações automatizadas para sua aplicação para verificar se ela é alcançável, está disponível e funcional.
 
 Você pode usar qualquer combinação dessas funções.
 
-> ***Políticas de Roteamento***
-> 
+> **_Políticas de Roteamento_**
 
 As políticas de roteamento determinam como o DNS do Route 53 responde às consultas.
 
 A tabela abaixo destaca a principal função de cada tipo de política de roteamento:
 
-| **POLÍTICA DE ROTEAMENTO** | **QUANDO USAR** |
-| --- | --- |
-| Simples | Resposta DNS simples fornecendo o endereço IP associado a um nome. |
-| Failover | Se o primário estiver inativo (com base em verificações de integridade), roteia para o destino secundário. |
-| Geolocalização | Usa a localização geográfica em que você está (por exemplo, Europa) para roteá-lo para a região mais próxima. |
-| Geoproximidade | Roteia para a região mais próxima em uma área geográfica. |
-| Latência | Direciona com base na rota de menor latência para os recursos. |
-| IP | Use quando quiser rotear o tráfego com base no local dos usuários e tiver os endereços IP de origem do tráfego. |
-| Resposta Multivalor | Retorna vários endereços IP e funciona como um balanceador de carga básico. |
-| Ponderada | Usa os pesos relativos atribuídos aos recursos para determinar para qual rotear. |
-
+| **POLÍTICA DE ROTEAMENTO** | **QUANDO USAR**                                                                                                 |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Simples                    | Resposta DNS simples fornecendo o endereço IP associado a um nome.                                              |
+| Failover                   | Se o primário estiver inativo (com base em verificações de integridade), roteia para o destino secundário.      |
+| Geolocalização             | Usa a localização geográfica em que você está (por exemplo, Europa) para roteá-lo para a região mais próxima.   |
+| Geoproximidade             | Roteia para a região mais próxima em uma área geográfica.                                                       |
+| Latência                   | Direciona com base na rota de menor latência para os recursos.                                                  |
+| IP                         | Use quando quiser rotear o tráfego com base no local dos usuários e tiver os endereços IP de origem do tráfego. |
+| Resposta Multivalor        | Retorna vários endereços IP e funciona como um balanceador de carga básico.                                     |
+| Ponderada                  | Usa os pesos relativos atribuídos aos recursos para determinar para qual rotear.                                |
 
 ## AWS Global Accelerator
 
-O AWS Global Accelerator é um serviço que melhora a **disponibilidade** e o **desempenho** de suas aplicações para usuários em todo o mundo. 
-Ele faz isso usando a *rede global altamente disponível da AWS* e redirecionando o tráfego de usuários para a aplicação **mais próxima em termos de latência**. Isso resulta em uma melhoria significativa na experiência do usuário.
+O AWS Global Accelerator é um serviço que melhora a **disponibilidade** e o **desempenho** de suas aplicações para usuários em todo o mundo.
+Ele faz isso usando a _rede global altamente disponível da AWS_ e redirecionando o tráfego de usuários para a aplicação **mais próxima em termos de latência**. Isso resulta em uma melhoria significativa na experiência do usuário.
 
 ![global_acelerator](images/globalacelera.png)
 
@@ -693,16 +665,16 @@ O Amazon Elastic Container Service (ECS) fornece um serviço de **gerenciamento 
 
 O Amazon ECS elimina a necessidade de instalar, operar e dimensionar sua própria **infraestrutura** de gerenciamento de cluster.
 
-Um ***tipo de lançamento*** do Amazon ECS determina o **tipo de infraestrutura** em que suas tarefas e serviços são hospedados
+Um **_tipo de lançamento_** do Amazon ECS determina o **tipo de infraestrutura** em que suas tarefas e serviços são hospedados
 
 > Existem dois tipos de lançamento:
 >
-| **Amazon EC2** | **Amazon Fargate** |
-| --- | --- |
-| Você provisiona explicitamente instâncias EC2 | O plano de controle solicita recursos e o Fargate provisiona automaticamente |
-| Você é responsável pela atualização, patching, cuidado do pool EC2 | O Fargate provisiona computação conforme necessário |
-| Você deve lidar com a otimização do cluster | O Fargate lida com a otimização do cluster |
-| Mais controle granular sobre a infraestrutura | Controle limitado, pois a infraestrutura é automatizada |
+> | **Amazon EC2**                                                     | **Amazon Fargate**                                                           |
+> | ------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
+> | Você provisiona explicitamente instâncias EC2                      | O plano de controle solicita recursos e o Fargate provisiona automaticamente |
+> | Você é responsável pela atualização, patching, cuidado do pool EC2 | O Fargate provisiona computação conforme necessário                          |
+> | Você deve lidar com a otimização do cluster                        | O Fargate lida com a otimização do cluster                                   |
+> | Mais controle granular sobre a infraestrutura                      | Controle limitado, pois a infraestrutura é automatizada                      |
 
 ### Amazon Elastic Container Registry (ECR)
 
@@ -745,8 +717,7 @@ O AWS Batch permite executar facilmente centenas de milhares de trabalhos de com
 
 Você simplesmente empacota o código para seus trabalhos em lote, **especifica suas dependências** e envia seu trabalho em lote. O AWS Batch **provisiona dinamicamente** a quantidade e o tipo ideais de recursos de computação(**tipos de instâncias**) com base no volume e nos requisitos específicos de recursos dos trabalhos em lote enviados.
 
-> ***Diferenças entre Lightsail e Beanstalk:***
-> 
+> **_Diferenças entre Lightsail e Beanstalk:_**
 
 - **Lightsail**: Mínima configuração, aplicações web e sites simples, lançamento rápido.
 - **Elastic Beanstalk**: Mais configuração, escalabilidade e dimensionamento automático na implementação de aplicações e serviços web.
@@ -763,14 +734,14 @@ O **AWS Resource Acess Manager (RAM)** ajuda você a compartilhar seus recursos 
 - Contêm metadados (dados sobre dados).
 - Às vezes, as tags podem ser herdadas, por exemplo, recursos criados pelo Auto Scaling, CloudFormation ou Elastic Beanstalk.
 - Os grupos de recursos facilitam a agrupação de recursos usando as tags atribuídas a eles. É possível agrupar recursos que compartilham uma ou mais tags.
-- *Os grupos de recursos contêm informações gerais, como:*
-    - Região.
-    - Nome.
-    - Verificações de saúde.
-- *E informações específicas, como:*
-    - Endereços IP públicos e privados (para EC2).
-    - Configurações de porta (para ELB).
-    - Motor do banco de dados (para RDS).
+- _Os grupos de recursos contêm informações gerais, como:_
+  - Região.
+  - Nome.
+  - Verificações de saúde.
+- _E informações específicas, como:_
+  - Endereços IP públicos e privados (para EC2).
+  - Configurações de porta (para ELB).
+  - Motor do banco de dados (para RDS).
 
 ### AWS Service Catalog
 
@@ -778,55 +749,53 @@ O **AWS Service Catalog** é um serviço de gerenciamento de serviços que permi
 
 ## 1.2 AWS Well-Architected Framework
 
-A AWS Well-Architected ajuda arquitetos de nuvem a construir infraestruturas **seguras**, **resilientes**, **eficientes** e de **alta performance** para aplicações e workloads. 
+A AWS Well-Architected ajuda arquitetos de nuvem a construir infraestruturas **seguras**, **resilientes**, **eficientes** e de **alta performance** para aplicações e workloads.
 Baseado em seis pilares (**excelência operacional**, **segurança**, **confiabilidade**, **eficiência de performance**, **otimização de custos** e **sustentabilidade**).
 
-> ***Pilares:***
-> 
+> **_Pilares:_**
 
 - **Excelência Operacional**: Foca na execução eficiente das operações diárias de sistemas baseados em nuvem. Para alcançar a excelência operacional, é preciso monitorar continuamente os recursos do sistema e automatizar processos a fim de reduzir a intervenção manual.
-    - Definições
-        - **Organização**
-        - **Preparar**
-        - **Operar**
-        - **Evoluir**
+  - Definições
+    - **Organização**
+    - **Preparar**
+    - **Operar**
+    - **Evoluir**
 - **Segurança**: Foca em proteger seus sistemas, dados e ativos contra ameaças internas e externas. Define políticas de seguranças, gestão de identidades, ACLs, SG a serem aplicadas em toda a organização.
-    - Definições
-        - **Segurança**
-        - **Gerenciamento de identidade e acesso**
-        - **Detecção**
-        - **Proteção de infraestrutura**
-        - **Proteção de dados**
-        - **Resposta a incidentes**
+  - Definições
+    - **Segurança**
+    - **Gerenciamento de identidade e acesso**
+    - **Detecção**
+    - **Proteção de infraestrutura**
+    - **Proteção de dados**
+    - **Resposta a incidentes**
 - **Confiabilidade**: Foca em garantir que os sistemas estejam sempre disponíveis e funcionando corretamente, sejam tolerantes a falhas e recuperáveis de desastres.
 - Definições
-    - **Fundamentos**
-    - **Arquitetura de carga de trabalho**
-    - **Gerenciamento de mudanças**
-    - **Gerenciamento de falhas**
+  - **Fundamentos**
+  - **Arquitetura de carga de trabalho**
+  - **Gerenciamento de mudanças**
+  - **Gerenciamento de falhas**
 - **Eficiência de performance**: Inclui a capacidade de usar recursos de computação com eficiência para atender aos requisitos do sistema à medida que a demanda muda, utilizando de caches e balanceadores de carga.
 - Definições
-    - **Seleção de arquitetura**
-    - **Computação e hardware**
-    - **Gerenciamento de dados**
-    - **Rede e entrega de conteúdo**
-    - **Processo e cultura**
+  - **Seleção de arquitetura**
+  - **Computação e hardware**
+  - **Gerenciamento de dados**
+  - **Rede e entrega de conteúdo**
+  - **Processo e cultura**
 - **Otimização de custos**: Foca na capacidade de executar sistemas para proporcionar valor comercial pelo menor preço, monitorando os custos e economizando recursos sem afetar o desempenho ou a confiabilidade do sistema.
 - Definições
-    - **Pratique o gerenciamento financeiro na nuvem**
-    - **Reconhecimento de despesas e usos**
-    - **Recursos econômicos**
-    - **Gerenciar recursos de demanda e fornecimento**
-    - **Otimizar ao longo do tempo**
+  - **Pratique o gerenciamento financeiro na nuvem**
+  - **Reconhecimento de despesas e usos**
+  - **Recursos econômicos**
+  - **Gerenciar recursos de demanda e fornecimento**
+  - **Otimizar ao longo do tempo**
 - **Sustentabilidade**: É um reconhecimento do impacto ambiental da tecnologia em nuvem e visa ajudar os clientes a projetar, implementar e operar suas cargas de trabalho de forma mais sustentável.
 - Definições
-    - **Escolha de região**
-    - **Padrões de comportamento do usuário**
-    - **Padrões de software e arquitetura**
-    - **Padrões de dados**
-    - **Padrões de hardware**
-    - **Processo de desenvolvimento de implantação**
-
+  - **Escolha de região**
+  - **Padrões de comportamento do usuário**
+  - **Padrões de software e arquitetura**
+  - **Padrões de dados**
+  - **Padrões de hardware**
+  - **Processo de desenvolvimento de implantação**
 
 ## 1.3 CAF
 
@@ -849,13 +818,13 @@ O AWS Systems Manager permite **centralizar** dados operacionais de vários Serv
 
 ### AWS AppConfig
 
-   O AWS AppConfig é um **recurso** do Systems Manager, que auxilia na **pré-implantação de alterações de configurações em aplicações**, fornecendo um mecanismo para práticas de implantação, podendo evitar erros em alterações de configuração, implantar alterações em varias destinos e controlar a implantação de alterações em seus aplicativos.
+O AWS AppConfig é um **recurso** do Systems Manager, que auxilia na **pré-implantação de alterações de configurações em aplicações**, fornecendo um mecanismo para práticas de implantação, podendo evitar erros em alterações de configuração, implantar alterações em varias destinos e controlar a implantação de alterações em seus aplicativos.
 
 ## 2.2 Serviços de Segurança
 
 ### AWS Artifact
 
-AWS Artifact fornece downloads sob demanda de documentos de segurança e conformidade, como certificações ISO, leis, normas, frameworks. Você pode enviar os documentos de segurança e conformidade (***artefatos de auditoria***) para seus auditores ou reguladores a fim de demonstrar a segurança e a conformidade da infraestrutura da AWS e dos serviços usados por você.
+AWS Artifact fornece downloads sob demanda de documentos de segurança e conformidade, como certificações ISO, leis, normas, frameworks. Você pode enviar os documentos de segurança e conformidade (**_artefatos de auditoria_**) para seus auditores ou reguladores a fim de demonstrar a segurança e a conformidade da infraestrutura da AWS e dos serviços usados por você.
 Você também pode usar esses documentos como diretrizes para avaliar sua própria arquitetura de nuvem e a eficácia dos controles internos da empresa.
 
 ### AWS GuardDuty
@@ -883,7 +852,7 @@ O Amazon Inspector é um **serviço automatizado de gerenciamento de vulnerabili
 
 ### AWS Secrets Manager
 
-O Secrets Manager ajuda você a **gerenciar o acesso a aplicações, serviços e recursos de TI**,  permitindo alternar, gerenciar e recuperar facilmente credenciais de banco de dados, chaves de APIs. Usando as policies do IAM para gerenciar o acesso aos seus segredos.
+O Secrets Manager ajuda você a **gerenciar o acesso a aplicações, serviços e recursos de TI**, permitindo alternar, gerenciar e recuperar facilmente credenciais de banco de dados, chaves de APIs. Usando as policies do IAM para gerenciar o acesso aos seus segredos.
 
 ### AWS Security Hub
 
@@ -902,3 +871,15 @@ O Amazon Macie é um serviço de segurança de dados que descobre dados confiden
 - **AWS Cloud9** IDE hospedada na AWS com o CLI e acesso direto a serviços na nuvem.
 - **AWS CLI**(**Command Line Interface**) ferramenta unificada para o gerenciamento e automação via scripts no terminal.
 - **AWS CloudShell** é um shell disponível diretamente no Console AWS que fornece um ambiente pré-autenticado e pré-configurado para executar a interação com recursos da AWS.
+
+### AWS CodeArtifact
+
+AWS CodeArtifact é um **serviço de repositório de artefatos** seguro, altamente escalável e gerenciado que ajuda as organizações a armazenar e compartilhar pacotes de software para desenvolvimento de aplicativos. Você pode compartilhar pacotes privados com segurança entre organizações, ou buscar em repositorios publicos como o npm Registry. Compativel com ferramentas de compilação e gerenciadores de pacote, como Maven, Gradle, npm, yarn, etc.
+
+### AWS CodeCommit
+
+AWS CodeCommit é um **serviço de controle de código-fonte** totalmente gerenciado, seguro e altamente escalável que hospeda repositórios privados do Git.
+
+### AWS CodeBuild
+
+O AWS CodeBuild é um **serviço de integração contínua** totalmente gerenciado que compila código-fonte, executa testes e produz pacotes de software prontos para implantação.
