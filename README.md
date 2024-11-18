@@ -883,3 +883,13 @@ AWS CodeCommit é um **serviço de controle de código-fonte** totalmente gerenc
 ### AWS CodeBuild
 
 O AWS CodeBuild é um **serviço de integração contínua** totalmente gerenciado que compila código-fonte, executa testes e produz pacotes de software prontos para implantação.
+
+### AWS CodeDeploy
+
+AWS CodeDeploy é um **serviço de implantação totalmente gerenciado que automatiza implantações de software** em uma variedade de serviços de computação, como Amazon EC2, AWS Lambda e servidores locais, facilitando a liberação de novos recursos, e evitando inatividade.
+
+### AWS CodePipeline
+
+O AWS CodePipeline é um **serviço totalmente gerenciado de entrega contínua** que ajuda a automatizar pipelines de CI/CD para oferecer atualizações rápidas e confiáveis de aplicações e infraestruturas.
+
+
