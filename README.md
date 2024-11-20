@@ -892,4 +892,12 @@ AWS CodeDeploy é um **serviço de implantação totalmente gerenciado que autom
 
 O AWS CodePipeline é um **serviço totalmente gerenciado de entrega contínua** que ajuda a automatizar pipelines de CI/CD para oferecer atualizações rápidas e confiáveis de aplicações e infraestruturas.
 
+### AWS CodeStar
+
+O AWS CodeStar **permite que você desenvolva, crie e implante rapidamente aplicações na AWS**. O AWS CodeStar disponibiliza uma interface de usuário unificada, permitindo que você gerencie facilmente suas atividades de desenvolvimento de software em um só lugar. Com o AWS CodeStar, é possível configurar toda a sua cadeia de ferramentas de [entrega contínua](https://aws.amazon.com/devops/continuous-delivery/) em questão de minutos, possibilitando que você comece o lançamento de códigos mais rapidamente.
+
+### AWS X-Ray
+
+AWS X-Ray ajuda os desenvolvedores a **analisar e depurar aplicativos distribuídos em produção**, fornece uma visão completa das solicitações à medida que elas percorrem sua aplicação e filtra dados visuais em cargas úteis, funções, rastreamentos, serviços, APIs e muito mais com movimentos sem código e com pouco código.
+
 
