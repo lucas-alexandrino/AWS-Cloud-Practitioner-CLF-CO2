@@ -900,4 +900,18 @@ O AWS CodeStar **permite que você desenvolva, crie e implante rapidamente aplic
 
 AWS X-Ray ajuda os desenvolvedores a **analisar e depurar aplicativos distribuídos em produção**, fornece uma visão completa das solicitações à medida que elas percorrem sua aplicação e filtra dados visuais em cargas úteis, funções, rastreamentos, serviços, APIs e muito mais com movimentos sem código e com pouco código.
 
+## 3.7 Serviços de ML/IA
+
+### AWS Transcribe
+
+- Adicione capacidades de transcrição de fala a aplicações.
+- A fala gravada pode ser convertida em texto antes de ser utilizada em aplicações.
+- Utiliza um processo de aprendizado profundo chamado Reconhecimento Automático de Fala (ASR) para converter fala em texto de maneira rápida e precisa.
+
+### AWS Rekognition
+
+- Adicione análise de imagem e vídeo às suas aplicações.
+- Identifique objetos, pessoas, texto, cenários e atividades em imagens e vídeos.
+- Processa vídeos armazenados em um bucket Amazon S3.
+- Publique o status de conclusão em um tópico Amazon SNS.
 
