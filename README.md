@@ -915,3 +915,14 @@ AWS X-Ray ajuda os desenvolvedores a **analisar e depurar aplicativos distribuí
 - Processa vídeos armazenados em um bucket Amazon S3.
 - Publique o status de conclusão em um tópico Amazon SNS.
 
+### AWS Translate
+
+- Serviço de tradução neural que oferece tradução rápida, de alta qualidade e acessível.
+- Utiliza modelos de aprendizado profundo para proporcionar traduções mais precisas e naturais.
+- Localize conteúdo, como sites e aplicações, para seus diversos usuários.
+
+### AWS Polly
+
+- Transforma texto em uma fala realista.
+- Crie aplicações que falam e desenvolva categorias totalmente novas de produtos com capacidade de fala.
+- Serviço de Texto para Fala (TTS) que utiliza tecnologias avançadas de aprendizado profundo para sintetizar fala humana natural.
