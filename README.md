@@ -926,3 +926,16 @@ AWS X-Ray ajuda os desenvolvedores a **analisar e depurar aplicativos distribuí
 - Transforma texto em uma fala realista.
 - Crie aplicações que falam e desenvolva categorias totalmente novas de produtos com capacidade de fala.
 - Serviço de Texto para Fala (TTS) que utiliza tecnologias avançadas de aprendizado profundo para sintetizar fala humana natural.
+
+### AWS Comprehend
+
+- Serviço de processamento de linguagem natural (NLP).
+- Usa aprendizado de máquina para extrair informações de dados não estruturados.
+- Pode identificar elementos críticos nos dados, como referências a idiomas, pessoas e lugares, e os arquivos de texto podem ser categorizados por tópicos relevantes.
+- Em tempo real, pode detectar automaticamente e com precisão o sentimento do cliente em seu conteúdo.
+
+### AWS Lex
+
+- IA de conversação para Chatbots e Call Centers.
+- Construa interfaces de conversação em qualquer aplicação usando voz e texto.
+- Crie bots para aumentar a produtividade do centro de contato, automatizar tarefas simples e impulsionar eficiências operacionais em toda a empresa.
