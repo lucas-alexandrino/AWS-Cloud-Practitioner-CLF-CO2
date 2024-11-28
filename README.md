@@ -939,3 +939,7 @@ AWS X-Ray ajuda os desenvolvedores a **analisar e depurar aplicativos distribuí
 - IA de conversação para Chatbots e Call Centers.
 - Construa interfaces de conversação em qualquer aplicação usando voz e texto.
 - Crie bots para aumentar a produtividade do centro de contato, automatizar tarefas simples e impulsionar eficiências operacionais em toda a empresa.
+
+### AWS Kendra
+
+O Amazon Kendra é um **serviço de pesquisa** empresarial inteligente que ajuda você a pesquisar em diferentes repositórios de conteúdos com conectores integrados.
