@@ -940,6 +940,32 @@ AWS X-Ray ajuda os desenvolvedores a **analisar e depurar aplicativos distribuí
 - Construa interfaces de conversação em qualquer aplicação usando voz e texto.
 - Crie bots para aumentar a produtividade do centro de contato, automatizar tarefas simples e impulsionar eficiências operacionais em toda a empresa.
 
-### AWS Kendra
+### AWS Textract
 
-O Amazon Kendra é um **serviço de pesquisa** empresarial inteligente que ajuda você a pesquisar em diferentes repositórios de conteúdos com conectores integrados.
+Extraia automaticamente texto impresso, caligrafia e dados de qualquer documento.
+
+**Recursos:**
+
+- 
+    - Reconhecimento Óptico de Caracteres (OCR).
+    - Identificação de relacionamentos, estrutura e texto.
+    - Usa IA para extrair texto e dados estruturados.
+    - Reconhece caligrafia, assim como texto impresso.
+    - Pode extrair de documentos como PDFs, imagens, formulários e tabelas.
+    - Compreende contexto, por exemplo, sabe que dados extrair de um recibo ou fatura.
+
+### AWS SageMaker
+
+Auxilia cientistas de dados e desenvolvedores a preparar, construir, treinar e implantar modelos de aprendizado de máquina (ML) de alta qualidade.
+
+**Atividades de desenvolvimento de ML incluem:**
+
+- 
+    - Preparação de dados.
+    - Engenharia de recursos.
+    - Detecção de viés estatístico.
+    - Auto-ML.
+    - Treinamento e ajuste.
+    - Hospedagem.
+    - Monitoramento.
+    - Fluxos de trabalho.
